@@ -1579,7 +1579,17 @@ a, button {
   
   .contact-wrapper {
     grid-template-columns: 1fr;
+    display: flex;
+    flex-direction: column;
     gap: 50px;
+  }
+
+  .contact-form-col {
+    order: 1;
+  }
+
+  .contact-info-col {
+    order: 2;
   }
   
   .contact-info-col {
