@@ -28,6 +28,10 @@ body {
   cursor: none;
 }
 
+body.page-quem-somos {
+  position: relative;
+}
+
 a, button {
   cursor: none;
 }
@@ -1002,15 +1006,16 @@ a, button {
 }
 
 .page-quem-somos .qs-bg {
-  position: fixed;
+  position: absolute;
   inset: 0;
   width: 100vw;
-  height: 100vh;
+  height: 100%;
+  min-height: 100vh;
   background-image: url("../img/fundoquemsomos.png"), url("../img/fundoquemsomos.jpg");
   background-repeat: no-repeat;
   background-position: center bottom;
   background-size: cover;
-  background-attachment: fixed;
+  background-attachment: scroll;
   opacity: 0.5;
   pointer-events: none;
   z-index: 0;
