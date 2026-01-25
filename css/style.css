@@ -32,6 +32,17 @@ a, button {
   cursor: none;
 }
 
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+}
+
 .hero {
   height: 100vh;
   background: url("../img/lambe\ lambe.png") center/cover fixed;
@@ -902,6 +913,24 @@ a, button {
   height: 40px;
   width: auto;
   display: block;
+}
+
+.nav-lang {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-left: auto;
+  margin-right: 20px;
+}
+
+.nav-lang select {
+  background: rgba(5, 1, 10, 0.6);
+  color: #fff;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 16px;
+  padding: 6px 12px;
+  font-family: "Funnel Display", sans-serif;
+  font-size: 0.9rem;
 }
 
 .nav-links {
