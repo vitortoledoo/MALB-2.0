@@ -1434,6 +1434,18 @@ a, button {
   .hero, .about-section, .specialties-section, .achievements-section, .portfolio-section, .page-quem-somos .qs-bg {
     background-attachment: scroll !important;
   }
+
+  .scroll-down {
+    width: 44px;
+    height: 44px;
+    bottom: 16px;
+    border-width: 1px;
+  }
+  
+  .scroll-down svg {
+    width: 18px;
+    height: 18px;
+  }
   
   .split-layout {
     flex-direction: column;
@@ -1454,12 +1466,37 @@ a, button {
     top: 15px;
   }
   
+  .navbar {
+    justify-content: space-between;
+    padding: 12px 5%;
+    background: rgba(5, 1, 10, 0.9) !important;
+    backdrop-filter: blur(10px) !important;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.05) !important;
+  }
+
+  .nav-logo img {
+    height: 32px;
+  }
+
+  .nav-toggle {
+    display: flex;
+  }
+
   .nav-links {
     display: none;
+    width: 100%;
+    flex-direction: column;
+    gap: 18px;
+    padding: 18px 0 24px;
+    align-items: center;
   }
-  
-  .navbar {
-    justify-content: center;
+
+  .navbar.menu-open .nav-links {
+    display: flex;
+  }
+
+  .nav-links a {
+    font-size: 1.05rem;
   }
   
   .portfolio-card {
@@ -1482,10 +1519,10 @@ a, button {
   
   .page-quem-somos .qs-bg {
     opacity: 0.25;
-    right: -180px;
-    bottom: -120px;
-    width: 95vw;
-    height: 45vh;
+    inset: 0;
+    width: 100vw;
+    height: 100vh;
+    background-position: center top;
   }
   
   .leader-grid {
