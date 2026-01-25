@@ -919,8 +919,7 @@ a, button {
   display: flex;
   align-items: center;
   gap: 8px;
-  margin-left: auto;
-  margin-right: 20px;
+  margin-left: 20px;
 }
 
 .nav-lang select {
@@ -933,10 +932,34 @@ a, button {
   font-size: 0.9rem;
 }
 
+.nav-toggle {
+  display: none;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+  flex-direction: column;
+  width: 42px;
+  height: 42px;
+  margin-left: auto;
+  background: transparent;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 12px;
+  cursor: pointer;
+}
+
+.nav-toggle span {
+  width: 20px;
+  height: 2px;
+  background: #fff;
+  border-radius: 999px;
+  display: block;
+}
+
 .nav-links {
   display: flex;
   gap: 30px;
   list-style: none;
+  margin-left: auto;
 }
 
 .nav-links a {
