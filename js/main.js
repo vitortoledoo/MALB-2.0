@@ -78,6 +78,8 @@ if (slider) {
 
 const navbar = document.querySelector('.navbar');
 const hero = document.querySelector('.hero');
+const navToggle = document.querySelector('.nav-toggle');
+const navLinks = document.querySelector('.nav-links');
 
 if (navbar) {
     if (!hero) {
@@ -91,6 +93,22 @@ if (navbar) {
             }
         });
     }
+}
+
+if (navToggle && navbar && navLinks) {
+    navToggle.addEventListener('click', () => {
+        const isOpen = navbar.classList.toggle('menu-open');
+        navToggle.setAttribute('aria-expanded', String(isOpen));
+    });
+
+    navLinks.querySelectorAll('a').forEach((link) => {
+        link.addEventListener('click', () => {
+            if (navbar.classList.contains('menu-open')) {
+                navbar.classList.remove('menu-open');
+                navToggle.setAttribute('aria-expanded', 'false');
+            }
+        });
+    });
 }
 
 const prevBtn = document.querySelector('.nav-arrow.prev');
