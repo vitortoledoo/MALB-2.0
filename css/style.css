@@ -32,6 +32,17 @@ a, button {
   cursor: none;
 }
 
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+}
+
 .hero {
   height: 100vh;
   background: url("../img/lambe\ lambe.png") center/cover fixed;
@@ -904,33 +915,22 @@ a, button {
   display: block;
 }
 
-.nav-toggle {
-  display: none;
-  flex-direction: column;
-  gap: 6px;
-  background: transparent;
-  border: none;
-  padding: 8px;
+.nav-lang {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-left: auto;
+  margin-right: 20px;
 }
 
-.nav-toggle span {
-  width: 24px;
-  height: 2px;
-  background: #fff;
-  display: block;
-  transition: transform 0.3s ease, opacity 0.3s ease;
-}
-
-.navbar.menu-open .nav-toggle span:nth-child(1) {
-  transform: translateY(8px) rotate(45deg);
-}
-
-.navbar.menu-open .nav-toggle span:nth-child(2) {
-  opacity: 0;
-}
-
-.navbar.menu-open .nav-toggle span:nth-child(3) {
-  transform: translateY(-8px) rotate(-45deg);
+.nav-lang select {
+  background: rgba(5, 1, 10, 0.6);
+  color: #fff;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 16px;
+  padding: 6px 12px;
+  font-family: "Funnel Display", sans-serif;
+  font-size: 0.9rem;
 }
 
 .nav-links {
