@@ -23,11 +23,11 @@ const translations = {
         },
         achievements: {
             title: '<span class="highlight">Conquistas</span>',
-            card1: { title: 'Recorde Mundial do Guinness', desc: 'Como Produtor Executivo, liderou o Festival Mr Moo (Edição 10 Anos), conquistando o reconhecimento oficial como o Maior Festival de Churrasco do Mundo, com mais de 700 profissionais coordenados.' },
-            card2: { title: 'Liderança em Grande Escala', desc: 'Gerenciou com sucesso mais de 30 eventos nacionais de automobilismo, com mais de 80.000 participantes, garantindo logística e hospitalidade impecáveis em diversas cidades.' },
-            card3: { title: 'Inovação em Operações', desc: 'Pioneira na autenticação digital por reconhecimento facial, eliminando plásticos, reduzindo custos e estabelecendo um novo padrão de sustentabilidade no automobilismo.' },
-            card4: { title: 'Transformação de Sistemas', desc: 'Implementei sistemas integrados para bilhetagem e financeiro, melhorando a visibilidade de dados, reduzindo erros manuais e acelerando a tomada de decisões estratégicas.' },
-            card5: { title: 'Eficiência Organizacional', desc: 'Impulsionou um aumento de 30% na eficiência do fluxo de trabalho através da reformulação de processos e ferramentas de coordenação em tempo real.' },
+            card1: { title: 'Festival Mr Moo – Edição 10 Anos', desc: 'Como Produtor Executivo, edição que garantiu ao evento o título do Guinness World Records como Maior Festival de Churrasco do Mundo, com grandes shows, público de milhares de pessoas e mais de 700 profissionais envolvidos.' },
+            card2: { title: 'Liderança em Grande Escala', desc: 'Gestão de mais de 30 eventos nacionais de automobilismo, reunindo mais de 80.000 participantes, com excelência na logística e hospitalidade em 3 países e mais de 20 cidades.' },
+            card3: { title: 'Inovação em Operações', desc: 'Implantação pioneira de autenticação digital por reconhecimento facial, eliminando o uso de plásticos, reduzindo custos operacionais e estabelecendo um novo padrão de sustentabilidade no credenciamento.' },
+            card4: { title: 'Transformação de Sistemas', desc: 'Implementação de sistemas integrados de bilhetagem e financeiro, ampliando a visibilidade de dados, reduzindo erros manuais e agilizando a tomada de decisões estratégicas.' },
+            card5: { title: 'Eficiência Organizacional', desc: 'Aumento de 30% na eficiência do fluxo de trabalho por meio da reformulação de processos e da implementação de ferramentas de coordenação em tempo real.' },
             card6: { title: 'Isso é MALB' }
         },
         portfolio: {
@@ -35,7 +35,7 @@ const translations = {
             subtitle: 'Explore a trajetória',
             stock: {
                 role: 'Sr Producer & Coord. Operações',
-                desc: 'Ao longo de quatro anos, evoluí do suporte administrativo/financeiro para a liderança de operações nacionais na Stock Car, coordenando logística, hospitalidade e customer experience em projetos de grande escala no Brasil. Atuei no planejamento e entrega de 30+ eventos de motorsport, garantindo excelência operacional, integração entre áreas e consistência na experiência do público.',
+                desc: 'Ao longo de quatro anos, evolução da área de suporte administrativo/financeiro para a liderança de operações nacionais na Stock Car, com atuação na coordenação de logística, hospitalidade e customer experience em projetos de grande escala no Brasil. Participação no planejamento e na entrega de mais de 30 eventos de motorsport, assegurando excelência operacional, integração entre áreas e consistência na experiência do público.',
                 hl1: 'Planejamento e execução de logística em grande escala',
                 hl2: 'Desenvolvimento de processos de ticketing',
                 hl3: 'Gestão de crise e service recovery',
@@ -43,51 +43,50 @@ const translations = {
             },
             mrmoo: {
                 role: 'Executive Producer (Guinness Project)',
-                desc: 'Atuação como Executive Producer em um projeto de alta complexidade que culminou no reconhecimento internacional do Guinness World Record (Maior Festival de Churrasco do Mundo).',
-                hl1: 'Planejamento operacional de alto impacto',
-                hl2: 'Gestão de times multidisciplinares',
-                hl3: 'Execução de projeto Guinness World Record',
-                hl4: 'Fortalecimento de presença de marca'
+                desc: 'Atuação como Executive Producer em projeto de alta complexidade que resultou no reconhecimento internacional do Guinness World Records como Maior Festival de Churrasco do Mundo, com foco na operação e governança do evento.',
+                hl1: 'Gestão de credenciamento e controle de acessos',
+                hl2: 'Organização e fluxo de acesso do público',
+                hl3: 'Suporte direto à diretoria'
             },
             wec: {
                 role: 'Coordenação Geral & Estratégica',
-                desc: 'Atuei na coordenação estratégica e operacional do WEC em São Paulo, alinhando times locais e internacionais, supervisionando ativações de parceiros, hospitalidade e logística, com foco em conformidade com padrões FIA/ACO. A edição 2025 recebeu 80.000+ pessoas, e sigo liderando o planejamento da edição 2026.',
-                hl1: 'Produção internacional (80k+ pax)',
-                hl2: 'Gestão de stakeholders (FIA/ACO/Sponsors)',
-                hl3: 'Supervisão de hospitalidade e VIP',
-                hl4: 'Garantia de conformidade e segurança'
+                desc: 'Atuação em PMO na coordenação estratégica do FIA WEC – Rolex 6 Horas de São Paulo, promovendo o alinhamento entre equipes locais e internacionais, a governança do projeto e a organização do planejamento de médio e longo prazo. A edição 2025 recebeu mais de 80.000 pessoas, com continuidade na liderança do planejamento da edição 2026.',
+                hl1: 'Gestão integrada de projetos de produção internacional (80k+ participantes)',
+                hl2: 'Governança e gestão de stakeholders institucionais e patrocinadores',
+                hl3: 'Apoio direto à diretoria, com estruturação de fluxos estratégicos de informação',
+                hl4: 'Elaboração e consolidação de relatórios gerenciais, garantindo visibilidade executiva e alinhamento entre áreas'
             },
             bh: {
                 role: 'Project Manager Operações',
-                desc: 'Evento no Mineirão que uniu motorsport, música e entretenimento em uma produção multi-experiência. Como PM, garanti o alinhamento entre Stock Car e equipe do festival, coordenando operações, timelines e infraestrutura, com foco em fluxo do público, segurança e consistência de entrega em grande escala.',
-                hl1: 'Integração de times e governança',
-                hl2: 'Logística complexa em estádio',
-                hl3: 'Consistência de experiência em larga escala',
-                hl4: 'Gestão de credenciamento e infra'
+                desc: 'Evento realizado no Mineirão que integrou motorsport, música e entretenimento em uma produção multi-experiência. Atuação como PM garantindo o alinhamento entre a Stock Car e a equipe do festival, com coordenação de operações, gestão de cronogramas e infraestrutura, assegurando fluxo do público, segurança e consistência de entrega em grande escala.',
+                hl1: 'Integração de equipes e estruturação de governança',
+                hl2: 'Gestão de logística complexa em ambiente de estádio',
+                hl3: 'Garantia de consistência da experiência do público em larga escala',
+                hl4: 'Gestão de credenciamento e infraestrutura'
             },
             juntos: {
                 role: 'Project Manager Engajamento',
-                desc: 'Experiência corporativa interna no autódromo, criada com RH para fortalecer cultura e engajamento. Fui responsável pelo planejamento e execução operacional, conectando colaboradores ao bastidor da produção e das operações do motorsport, entregando uma jornada de alto impacto com alinhamento e fluidez.',
-                hl1: 'Co-criação de conceito com RH',
-                hl2: 'Logística e gestão de convidados',
-                hl3: 'Execução on-site completa',
-                hl4: 'Fortalecimento de propósito da empresa'
+                desc: 'Experiência corporativa interna realizada no autódromo, desenvolvida em parceria com a área de RH com o objetivo de fortalecer cultura e engajamento organizacional. Atuação em planejamento e coordenação do projeto, conectando colaboradores aos bastidores da produção e das operações do motorsport, com entrega de uma jornada de alto impacto, alinhada e fluida.',
+                hl1: 'Co-criação de conceito em parceria com RH',
+                hl2: 'Planejamento logístico e gestão de convidados',
+                hl3: 'Coordenação da execução on-site',
+                hl4: 'Fortalecimento do propósito e da cultura organizacional'
             },
             ctio: {
                 role: 'Project Manager Coordenação VIP',
-                desc: 'Evento premium voltado à divisão de tecnologia, reunindo CTIOs e lideranças em um dia exclusivo com networking, prospecção e experiências no autódromo. Conduzi planejamento operacional, logística VIP e coordenação de parceiros para uma entrega alinhada ao branding e objetivos de relacionamento.',
+                desc: 'Evento premium voltado à divisão de tecnologia, reunindo CTIOs e lideranças em uma experiência exclusiva no autódromo, com foco em networking, prospecção e relacionamento estratégico. Atuação no planejamento do projeto, na logística VIP e na coordenação de parceiros, assegurando uma entrega alinhada ao branding e aos objetivos de relacionamento da iniciativa.',
                 hl1: 'Hospitalidade premium e guest relations',
-                hl2: 'Formato integrado: Tech + Motorsport',
-                hl3: 'Produção de alto padrão',
-                hl4: 'Foco em relacionamento e aquisição'
+                hl2: 'Desenvolvimento de formato integrado entre tecnologia e motorsport',
+                hl3: 'Produção de experiência de alto padrão',
+                hl4: 'Foco estratégico em relacionamento e aquisição'
             },
             f4: {
-                role: 'Project Manager F1 Ecosystem',
-                desc: 'Por dois anos consecutivos, fui responsável pela coordenação da Fórmula 4 Brasil dentro do ecossistema do GP de F1 em São Paulo. Atuei como ponte operacional entre equipes, garantindo alinhamento de cronograma, segurança, acessos, transporte e operação de pista, com alta pressão e precisão.',
+                role: 'Project Manager - F1 Ecosystem',
+                desc: 'Coordenação da Fórmula 4 Brasil por dois anos consecutivos dentro do ecossistema do GP de Fórmula 1 em São Paulo, atuando como interface estratégica entre as equipes envolvidas. Responsabilidade pelo alinhamento de cronogramas, segurança, acessos, transporte e operação de pista, em um ambiente de alta complexidade, pressão e precisão.',
                 hl1: 'Gestão de logística da delegação F4',
-                hl2: 'Ponte operacional F1 ↔ F4',
-                hl3: 'Transporte, travel e operação de pista',
-                hl4: 'Execução reconhecida por sincronização'
+                hl2: 'Interface e alinhamento operacional entre os ecossistemas F1 e F4',
+                hl3: 'Coordenação de transporte, travel e operação de pista',
+                hl4: 'Execução reconhecida pela alta sincronização entre frentes'
             },
             siasp: {
                 role: 'Project Manager.',
@@ -106,7 +105,7 @@ const translations = {
                 scale: 'Logística Escala',
                 suppliers: 'Fornecedores',
                 guinness: 'Guinness Planning',
-                experience: 'Experiência',
+                experience: 'Experiência do visitante e alto volume de engajamento',
                 strategy: 'Estratégia',
                 intOps: 'Operações Int.',
                 stakeholders: 'Stakeholders',
@@ -150,16 +149,18 @@ const translations = {
         aboutPage: {
             kicker: 'Institucional',
             title: 'Quem somos.',
-            p1: 'Somos uma consultoria de eventos especializada em operações, logística e entrega de ponta a ponta.',
-            p2: 'Temos vivência sólida em projetos de grande escala no Brasil, com forte atuação no universo motorsport, em hospitalidade premium e em eventos corporativos estratégicos. Funcionamos como o ponto de convergência entre equipes internas, fornecedores, patrocinadores e a organização do evento, garantindo alinhamento de cronograma, conformidade, segurança e experiência do público do início ao fim.',
-            p3: 'Nosso diferencial é transformar complexidade em execução. Estruturamos o planejamento, integramos áreas e lideramos a operação em campo com comunicação precisa, visão de risco e ritmo de pista. Assim, entregamos com consistência tanto em eventos nacionais e internacionais com dezenas de milhares de pessoas, quanto em experiências VIP para C-levels e ativações de marca com múltiplas frentes simultâneas.',
+            p1: 'Somos uma consultoria de eventos especializada em operações, logística, gestão de projetos e experiência do público, com atuação ponta a ponta — do planejamento estratégico à entrega em campo.',
+            p2: 'Reunimos liderança experiente e visão prática, construídas a partir de uma vivência sólida em projetos de grande escala no Brasil, Argentina e Uruguai, com forte presença no motorsport, em hospitalidade premium e em eventos corporativos estratégicos. Atuamos como o ponto de convergência entre equipes internas, fornecedores, patrocinadores e a organização do evento, garantindo alinhamento de cronograma, clareza de fluxos, segurança e experiências consistentes do início ao fim.',
+            p3: 'Nossa atuação vai além da execução: desenhamos jornadas de experiência, estruturamos processos e apoiamos decisões estratégicas, assegurando que cada interação — do acesso do público à hospitalidade VIP — seja fluida, coerente e alinhada aos objetivos do projeto e das marcas envolvidas.',
+            p4: 'O nosso diferencial está na liderança em ambientes complexos. Transformamos desafios operacionais em entregas bem orquestradas por meio de planejamento estruturado, comunicação precisa, visão de risco e ritmo de pista. Isso nos permite entregar com excelência tanto eventos nacionais e internacionais com dezenas de milhares de pessoas, quanto experiências exclusivas para C-levels, ativações de marca e projetos multistakeholder de alta visibilidade.',
+            p5: 'Complexidade organizada. Experiências bem entregues. Liderança em campo.',
             leader: {
                 kicker: 'Liderança',
                 title: 'Quem é Larissa Coelho<br>',
                 role: 'Head da MALB*',
                 p1: 'Larissa é uma profissonal especialista em Operações de Eventos de grande, médio e pequeno porte, Experiência do Cliente e Gestão de Projetos, com mais de 5 anos de experiência liderando projetos de grande escala que combinam criatividade, estrutura e precisão.',
-                p2: 'Chegou a coordenar produções internacionais como as 6 Horas de São Paulo do FIA WEC Rolex, o Stock Car Championship, o BH Stock Festival e o premiado Festival Mr Moo Edição Especial de 10 Anos, que conquistou um recorde mundial do Guinness em 2025.',
-                p3: 'Larissa trabalha combinando planejamento estratégico, gestão financeira e design de serviços, garantindo que cada evento ou projeto seja eficiente, significativo e memorável.',
+                p2: 'Ao longo de sua trajetória, coordenou produções nacionais e internacionais de alta complexidade, incluindo o FIA WEC – Rolex 6 Horas de São Paulo, o Stock Car Championship, o BH Stock Festival e o premiado Festival Mr Moo – Edição Especial de 10 Anos, que conquistou um recorde mundial do Guinness em 2025.',
+                p3: 'Seu trabalho integra planejamento estratégico, gestão financeira e design de serviços, com foco na construção de jornadas consistentes, eficientes e centradas no público, garantindo que cada projeto entregue não apenas resultados operacionais, mas também experiências memoráveis e alinhadas ao propósito das marcas.',
                 quote: '"Sou apaixonada por transformar operações complexas em experiências fluidas e centradas nas pessoas, que conectam marcas, equipes e públicos."',
                 cta: 'Saiba mais'
             }
@@ -199,11 +200,11 @@ const translations = {
         },
         achievements: {
             title: '<span class="highlight">Achievements</span>',
-            card1: { title: 'Guinness World Record', desc: 'As Executive Producer, led the Mr Moo Festival (10-Year Edition), earning official recognition as the Largest BBQ Festival in the World, coordinating 700+ professionals.' },
-            card2: { title: 'Large-Scale Leadership', desc: 'Successfully managed 30+ national motorsport events with 80,000+ attendees, delivering impeccable logistics and hospitality across cities.' },
-            card3: { title: 'Operational Innovation', desc: 'Pioneered digital facial-recognition authentication, removing plastics, reducing costs, and setting a new sustainability standard in motorsport.' },
-            card4: { title: 'Systems Transformation', desc: 'Implemented integrated ticketing and finance systems, improving data visibility, reducing manual errors, and accelerating strategic decisions.' },
-            card5: { title: 'Organizational Efficiency', desc: 'Drove a 30% increase in workflow efficiency through process redesign and real-time coordination tools.' },
+            card1: { title: 'Mr Moo Festival – 10-Year Edition', desc: 'As Executive Producer, an edition that earned the event the Guinness World Records title as the Largest BBQ Festival in the World, with major shows, thousands of attendees, and more than 700 professionals involved.' },
+            card2: { title: 'Large-Scale Leadership', desc: 'Managed more than 30 national motorsport events, gathering 80,000+ participants, with excellence in logistics and hospitality across 3 countries and over 20 cities.' },
+            card3: { title: 'Operational Innovation', desc: 'Pioneering implementation of digital facial-recognition authentication, eliminating plastic use, reducing operating costs, and setting a new sustainability standard in accreditation.' },
+            card4: { title: 'Systems Transformation', desc: 'Implementation of integrated ticketing and finance systems, expanding data visibility, reducing manual errors, and speeding up strategic decision-making.' },
+            card5: { title: 'Organizational Efficiency', desc: '30% increase in workflow efficiency through process redesign and real-time coordination tools.' },
             card6: { title: 'This is MALB' }
         },
         portfolio: {
@@ -211,7 +212,7 @@ const translations = {
             subtitle: 'Explore the journey',
             stock: {
                 role: 'Sr Producer & Operations Coordinator',
-                desc: 'Over four years, I evolved from administrative/financial support to leading national operations at Stock Car, coordinating logistics, hospitality, and customer experience at large-scale projects in Brazil. I planned and delivered 30+ motorsport events, ensuring operational excellence, cross-team integration, and consistent audience experience.',
+                desc: 'Over four years, evolved from administrative/financial support to leading national operations at Stock Car, coordinating logistics, hospitality, and customer experience in large-scale projects in Brazil. Participated in planning and delivering more than 30 motorsport events, ensuring operational excellence, cross-area integration, and consistent audience experience.',
                 hl1: 'Large-scale logistics planning and execution',
                 hl2: 'Ticketing process development',
                 hl3: 'Crisis management and service recovery',
@@ -219,51 +220,50 @@ const translations = {
             },
             mrmoo: {
                 role: 'Executive Producer (Guinness Project)',
-                desc: 'Executive Producer in a high-complexity project that culminated in the Guinness World Record (Largest BBQ Festival in the World).',
-                hl1: 'High-impact operational planning',
-                hl2: 'Multidisciplinary team management',
-                hl3: 'Guinness World Record execution',
-                hl4: 'Brand presence strengthening'
+                desc: 'Executive Producer in a high-complexity project that resulted in international recognition by Guinness World Records as the Largest BBQ Festival in the World, with focus on event operations and governance.',
+                hl1: 'Credentialing management and access control',
+                hl2: 'Audience access organization and flow',
+                hl3: 'Direct support to leadership'
             },
             wec: {
                 role: 'General & Strategic Coordination',
-                desc: 'Coordinated WEC operations in São Paulo, aligning local and international teams, overseeing partner activations, hospitality, and logistics, with focus on FIA/ACO compliance. The 2025 edition welcomed 80,000+ people, and I continue leading planning for 2026.',
-                hl1: 'International production (80k+ pax)',
-                hl2: 'Stakeholder management (FIA/ACO/Sponsors)',
-                hl3: 'Hospitality and VIP supervision',
-                hl4: 'Compliance and safety assurance'
+                desc: 'PMO coordination for FIA WEC – Rolex 6 Hours of São Paulo, aligning local and international teams, ensuring project governance, and organizing mid/long-term planning. The 2025 edition welcomed more than 80,000 people, with continued leadership for the 2026 planning.',
+                hl1: 'Integrated management of international production projects (80k+ participants)',
+                hl2: 'Governance and management of institutional stakeholders and sponsors',
+                hl3: 'Direct support to leadership with strategic information flows',
+                hl4: 'Creation and consolidation of management reports, ensuring executive visibility and cross-area alignment'
             },
             bh: {
                 role: 'Operations Project Manager',
-                desc: 'Event at Mineirão combining motorsport, music, and entertainment in a multi-experience production. As PM, I aligned Stock Car and festival teams, coordinating operations, timelines, and infrastructure with focus on crowd flow, safety, and delivery consistency at scale.',
-                hl1: 'Team integration and governance',
-                hl2: 'Complex stadium logistics',
-                hl3: 'Consistency at scale',
+                desc: 'Event held at Mineirão integrating motorsport, music, and entertainment in a multi-experience production. As PM, aligned Stock Car and festival teams, coordinating operations, schedule management, and infrastructure to ensure crowd flow, safety, and consistent delivery at scale.',
+                hl1: 'Team integration and governance structuring',
+                hl2: 'Complex logistics management in a stadium environment',
+                hl3: 'Consistent audience experience at scale',
                 hl4: 'Credentialing and infrastructure management'
             },
             juntos: {
                 role: 'Engagement Project Manager',
-                desc: 'Internal corporate experience at the racetrack, created with HR to strengthen culture and engagement. I led planning and operations, connecting employees to behind-the-scenes motorsport production with a high-impact, aligned journey.',
-                hl1: 'Co-created concept with HR',
-                hl2: 'Guest logistics and management',
-                hl3: 'Full on-site execution',
-                hl4: 'Strengthened company purpose'
+                desc: 'Internal corporate experience at the racetrack, developed with HR to strengthen culture and organizational engagement. Planned and coordinated the project, connecting employees to behind-the-scenes motorsport production and operations with a high-impact, aligned journey.',
+                hl1: 'Co-creation of concept with HR',
+                hl2: 'Logistics planning and guest management',
+                hl3: 'On-site execution coordination',
+                hl4: 'Strengthening of purpose and organizational culture'
             },
             ctio: {
                 role: 'VIP Coordination Project Manager',
-                desc: 'Premium event for the technology division, bringing CTIOs and leaders together for a day of networking, prospecting, and racetrack experiences. Led operational planning, VIP logistics, and partner coordination aligned with branding and relationship goals.',
+                desc: 'Premium event for the technology division, bringing CTIOs and leaders together for an exclusive racetrack experience focused on networking, prospecting, and strategic relationship-building. Led project planning, VIP logistics, and partner coordination to ensure delivery aligned with branding and relationship goals.',
                 hl1: 'Premium hospitality and guest relations',
-                hl2: 'Integrated format: Tech + Motorsport',
-                hl3: 'High-standard production',
-                hl4: 'Relationship and acquisition focus'
+                hl2: 'Integrated format between technology and motorsport',
+                hl3: 'High-end experience production',
+                hl4: 'Strategic focus on relationships and acquisition'
             },
             f4: {
-                role: 'Project Manager F1 Ecosystem',
-                desc: 'For two consecutive years, I coordinated Formula 4 Brazil within the São Paulo F1 GP ecosystem, acting as the operational bridge between teams, ensuring schedule alignment, safety, access, transport, and track operations under high pressure and precision.',
+                role: 'Project Manager - F1 Ecosystem',
+                desc: 'Coordinated Formula 4 Brazil for two consecutive years within the São Paulo Formula 1 GP ecosystem, acting as the strategic interface between teams. Responsible for aligning schedules, safety, access, transport, and track operations in a high-complexity, high-pressure environment.',
                 hl1: 'F4 delegation logistics management',
-                hl2: 'Operational bridge F1 ↔ F4',
-                hl3: 'Transport, travel, and track operations',
-                hl4: 'Execution recognized for synchronization'
+                hl2: 'Operational interface between F1 and F4 ecosystems',
+                hl3: 'Transport, travel, and track operations coordination',
+                hl4: 'Execution recognized for high synchronization across fronts'
             },
             siasp: {
                 role: 'Project Manager.',
@@ -282,7 +282,7 @@ const translations = {
                 scale: 'Scaled Logistics',
                 suppliers: 'Suppliers',
                 guinness: 'Guinness Planning',
-                experience: 'Experience',
+                experience: 'Visitor experience and high engagement volume',
                 strategy: 'Strategy',
                 intOps: 'Int. Ops',
                 stakeholders: 'Stakeholders',
@@ -326,16 +326,18 @@ const translations = {
         aboutPage: {
             kicker: 'Institutional',
             title: 'About us.',
-            p1: 'We are an event consulting firm specialized in operations, logistics, and end-to-end delivery.',
-            p2: 'We have strong experience in large-scale projects in Brazil, with a strong presence in motorsport, premium hospitality, and strategic corporate events. We act as the point of convergence between internal teams, suppliers, sponsors, and the event organization, ensuring schedule alignment, compliance, safety, and audience experience from start to finish.',
-            p3: 'Our differentiator is turning complexity into execution. We structure planning, integrate areas, and lead on-site operations with precise communication, risk vision, and track rhythm. We deliver consistently in both national and international events with tens of thousands of attendees and in VIP experiences for C-levels and multi-front brand activations.',
+            p1: 'We are an event consulting firm specialized in operations, logistics, project management, and audience experience, with end-to-end delivery — from strategic planning to on-site execution.',
+            p2: 'We bring experienced leadership and a practical vision built on strong experience in large-scale projects in Brazil, Argentina, and Uruguay, with a strong presence in motorsport, premium hospitality, and strategic corporate events. We act as the point of convergence between internal teams, suppliers, sponsors, and event organizers, ensuring schedule alignment, clear flows, safety, and consistent experiences from start to finish.',
+            p3: 'Our work goes beyond execution: we design experience journeys, structure processes, and support strategic decisions, ensuring each interaction — from public access to VIP hospitality — is fluid, coherent, and aligned with the objectives of the project and the brands involved.',
+            p4: 'Our differentiator is leadership in complex environments. We turn operational challenges into well-orchestrated deliveries through structured planning, precise communication, risk awareness, and track rhythm. This allows us to deliver excellence in both national and international events with tens of thousands of people and exclusive experiences for C-levels, brand activations, and high-visibility multi-stakeholder projects.',
+            p5: 'Organized complexity. Well-delivered experiences. Leadership in the field.',
             leader: {
                 kicker: 'Leadership',
                 title: 'Who is Larissa Coelho<br>',
                 role: 'Head of MALB*',
-                p1: 'Larissa is a professional specialist in event operations for large, medium, and small events, Customer Experience, and Project Management, with over 5 years leading large-scale projects that combine creativity, structure, and precision.',
-                p2: 'She coordinated international productions such as FIA WEC Rolex 6 Hours of São Paulo, Stock Car Championship, BH Stock Festival, and the award-winning Mr Moo Festival 10-Year Special Edition, which achieved a Guinness World Record in 2025.',
-                p3: 'Larissa combines strategic planning, financial management, and service design to ensure every event or project is efficient, meaningful, and memorable.',
+                p1: 'Larissa is a professional specialist in Event Operations for large, medium, and small events, Customer Experience, and Project Management, with over 5 years of experience leading large-scale projects that combine creativity, structure, and precision.',
+                p2: 'Throughout her career, she coordinated high-complexity national and international productions, including FIA WEC – Rolex 6 Hours of São Paulo, Stock Car Championship, BH Stock Festival, and the award-winning Mr Moo Festival – 10-Year Special Edition, which achieved a Guinness World Record in 2025.',
+                p3: 'Her work integrates strategic planning, financial management, and service design, focusing on building consistent, efficient, and audience-centered journeys, ensuring each project delivers not only operational results but also memorable experiences aligned with brand purpose.',
                 quote: '"I am passionate about turning complex operations into smooth, people-centered experiences that connect brands, teams, and audiences."',
                 cta: 'Learn more'
             }
@@ -375,11 +377,11 @@ const translations = {
         },
         achievements: {
             title: '<span class="highlight">Réalisations</span>',
-            card1: { title: 'Record du monde Guinness', desc: 'En tant que Productrice Exécutive, a dirigé le Festival Mr Moo (Édition 10 ans) et obtenu la reconnaissance officielle du plus grand festival de barbecue au monde, avec plus de 700 professionnels coordonnés.' },
-            card2: { title: 'Leadership à grande échelle', desc: 'A géré avec succès plus de 30 événements nationaux de sport automobile, avec plus de 80 000 participants, garantissant une logistique et une hospitalité impeccables.' },
-            card3: { title: 'Innovation opérationnelle', desc: 'Pionnière de l’authentification faciale numérique, éliminant les plastiques, réduisant les coûts et établissant un nouveau standard de durabilité.' },
-            card4: { title: 'Transformation des systèmes', desc: 'A mis en place des systèmes intégrés de billetterie et finance, améliorant la visibilité des données et accélérant les décisions.' },
-            card5: { title: 'Efficacité organisationnelle', desc: 'A augmenté de 30 % l’efficacité du flux de travail grâce à la refonte des processus et des outils de coordination en temps réel.' },
+            card1: { title: 'Festival Mr Moo – Édition 10 ans', desc: 'En tant que Productrice Exécutive, édition qui a garanti au festival le titre du Guinness World Records comme le plus grand festival de barbecue au monde, avec de grands concerts, un public de milliers de personnes et plus de 700 professionnels impliqués.' },
+            card2: { title: 'Leadership à grande échelle', desc: 'Gestion de plus de 30 événements nationaux de sport automobile, réunissant plus de 80 000 participants, avec excellence en logistique et hospitalité dans 3 pays et plus de 20 villes.' },
+            card3: { title: 'Innovation opérationnelle', desc: 'Implantation pionnière d’authentification digitale par reconnaissance faciale, éliminant l’usage de plastiques, réduisant les coûts opérationnels et établissant un nouveau standard de durabilité pour l’accréditation.' },
+            card4: { title: 'Transformation des systèmes', desc: 'Mise en place de systèmes intégrés de billetterie et de finance, augmentant la visibilité des données, réduisant les erreurs manuelles et accélérant la prise de décision stratégique.' },
+            card5: { title: 'Efficacité organisationnelle', desc: 'Augmentation de 30 % de l’efficacité du flux de travail grâce à la refonte des processus et à la mise en place d’outils de coordination en temps réel.' },
             card6: { title: 'C’est MALB' }
         },
         portfolio: {
@@ -387,7 +389,7 @@ const translations = {
             subtitle: 'Explorez le parcours',
             stock: {
                 role: 'Sr Producer & Coord. Opérations',
-                desc: 'En quatre ans, j’ai évolué du support administratif/financier au leadership des opérations nationales chez Stock Car, en coordonnant logistique, hospitalité et expérience client pour des projets de grande envergure au Brésil.',
+                desc: 'Au cours de quatre ans, évolution du support administratif/financier vers la direction des opérations nationales de Stock Car, avec coordination de la logistique, de l’hospitalité et de l’expérience client sur des projets de grande échelle au Brésil. Participation à la planification et à la livraison de plus de 30 événements de motorsport, garantissant l’excellence opérationnelle, l’intégration entre équipes et la cohérence de l’expérience du public.',
                 hl1: 'Planification et exécution logistique à grande échelle',
                 hl2: 'Développement des processus de billetterie',
                 hl3: 'Gestion de crise et service recovery',
@@ -395,51 +397,50 @@ const translations = {
             },
             mrmoo: {
                 role: 'Executive Producer (Projet Guinness)',
-                desc: 'Executive Producer sur un projet de haute complexité ayant conduit à un Guinness World Record.',
-                hl1: 'Planification opérationnelle à fort impact',
-                hl2: 'Gestion d’équipes pluridisciplinaires',
-                hl3: 'Exécution du projet Guinness World Record',
-                hl4: 'Renforcement de la présence de marque'
+                desc: 'Executive Producer sur un projet de haute complexité ayant abouti à la reconnaissance internationale du Guinness World Records comme le plus grand festival de barbecue au monde, avec focus sur l’opération et la gouvernance de l’événement.',
+                hl1: 'Gestion de l’accréditation et contrôle des accès',
+                hl2: 'Organisation et flux d’accès du public',
+                hl3: 'Support direct à la direction'
             },
             wec: {
                 role: 'Coordination Générale & Stratégique',
-                desc: 'Coordination stratégique et opérationnelle du WEC à São Paulo, alignement d’équipes locales et internationales, supervision des activations partenaires, hospitalité et logistique.',
-                hl1: 'Production internationale (80k+ pax)',
-                hl2: 'Gestion des parties prenantes (FIA/ACO/Sponsors)',
-                hl3: 'Supervision hospitalité et VIP',
-                hl4: 'Conformité et sécurité'
+                desc: 'Coordination PMO du FIA WEC – Rolex 6 Hours of São Paulo, alignant équipes locales et internationales, assurant la gouvernance du projet et l’organisation de la planification à moyen et long terme. L’édition 2025 a accueilli plus de 80 000 personnes, avec continuité de la direction du planning 2026.',
+                hl1: 'Gestion intégrée de projets de production internationale (80k+ participants)',
+                hl2: 'Gouvernance et gestion des stakeholders institutionnels et sponsors',
+                hl3: 'Support direct à la direction avec structuration des flux d’information stratégiques',
+                hl4: 'Élaboration et consolidation de rapports de gestion, garantissant visibilité exécutive et alignement inter-équipes'
             },
             bh: {
                 role: 'Chef de Projet Opérations',
-                desc: 'Événement au Mineirão combinant sport auto, musique et divertissement. Coordination des opérations, timelines et infrastructure.',
-                hl1: 'Intégration des équipes et gouvernance',
-                hl2: 'Logistique complexe en stade',
-                hl3: 'Cohérence d’expérience à grande échelle',
-                hl4: 'Gestion des accréditations et infrastructure'
+                desc: 'Événement organisé au Mineirão intégrant motorsport, musique et divertissement en production multi-expériences. En tant que PM, alignment entre Stock Car et l’équipe du festival, coordination des opérations, gestion des plannings et infrastructure, garantissant flux public, sécurité et cohérence de livraison à grande échelle.',
+                hl1: 'Intégration des équipes et structuration de la gouvernance',
+                hl2: 'Gestion logistique complexe en environnement de stade',
+                hl3: 'Garantie de cohérence de l’expérience du public à grande échelle',
+                hl4: 'Gestion des accréditations et de l’infrastructure'
             },
             juntos: {
                 role: 'Chef de Projet Engagement',
-                desc: 'Expérience корпоративative interne pour renforcer culture et engagement, avec exécution opérationnelle complète.',
-                hl1: 'Co-création de concept avec RH',
-                hl2: 'Logistique et gestion des invités',
-                hl3: 'Exécution sur site complète',
-                hl4: 'Renforcement du sens de l’entreprise'
+                desc: 'Expérience корпоративative interne sur le circuit, développée avec le département RH pour renforcer la culture et l’engagement organisationnel. Planification et coordination du projet, connectant les collaborateurs aux coulisses de la production et des opérations du motorsport, avec une livraison à fort impact, alignée et fluide.',
+                hl1: 'Co-création du concept avec le RH',
+                hl2: 'Planification logistique et gestion des invités',
+                hl3: 'Coordination de l’exécution on-site',
+                hl4: 'Renforcement du purpose et de la culture organisationnelle'
             },
             ctio: {
                 role: 'Chef de Projet Coordination VIP',
-                desc: 'Événement premium pour la division tech, réunissant CTIOs et dirigeants. Planification opérationnelle, logistique VIP et coordination partenaires.',
+                desc: 'Événement premium pour la division technologique, réunissant CTIOs et leaders pour une expérience exclusive sur circuit, axée sur networking, prospection et relation stratégique. Planification du projet, logistique VIP et coordination des partenaires, garantissant une livraison alignée au branding et aux objectifs relationnels.',
                 hl1: 'Hospitalité premium et guest relations',
-                hl2: 'Format intégré : Tech + Motorsport',
-                hl3: 'Production haut de gamme',
-                hl4: 'Focus relation et acquisition'
+                hl2: 'Développement d’un format intégré entre technologie et motorsport',
+                hl3: 'Production d’expérience haut de gamme',
+                hl4: 'Focus stratégique sur relation et acquisition'
             },
             f4: {
-                role: 'Chef de Projet Écosystème F1',
-                desc: 'Coordination de la Formule 4 Brésil au sein du GP F1 de São Paulo, assurant synchronisation, sécurité, accès et opérations piste.',
+                role: 'Chef de Projet - Écosystème F1',
+                desc: 'Coordination de la Formule 4 Brésil pendant deux années consécutives au sein de l’écosystème du GP de Formule 1 à São Paulo, en tant qu’interface stratégique entre les équipes. Responsabilité de l’alignement des plannings, sécurité, accès, transport et opérations de piste, dans un environnement de haute complexité et pression.',
                 hl1: 'Gestion logistique de la délégation F4',
-                hl2: 'Pont opérationnel F1 ↔ F4',
-                hl3: 'Transport, travel et opérations piste',
-                hl4: 'Exécution reconnue pour la synchronisation'
+                hl2: 'Interface opérationnelle entre les écosystèmes F1 et F4',
+                hl3: 'Coordination transport, travel et opérations de piste',
+                hl4: 'Exécution reconnue pour la haute synchronisation entre les fronts'
             },
             siasp: {
                 role: 'Chef de Projet.',
@@ -458,7 +459,7 @@ const translations = {
                 scale: 'Logistique à grande échelle',
                 suppliers: 'Fournisseurs',
                 guinness: 'Planification Guinness',
-                experience: 'Expérience',
+                experience: 'Expérience visiteur et fort volume d’engagement',
                 strategy: 'Stratégie',
                 intOps: 'Ops. Int.',
                 stakeholders: 'Parties prenantes',
@@ -502,16 +503,18 @@ const translations = {
         aboutPage: {
             kicker: 'Institutionnel',
             title: 'Qui sommes-nous.',
-            p1: 'Nous sommes un cabinet de conseil événementiel spécialisé en opérations, logistique et livraison de bout en bout.',
-            p2: 'Nous avons une solide expérience des projets de grande ampleur au Brésil, avec une forte présence dans le motorsport, l’hospitalité premium et les événements корпоративatifs.',
-            p3: 'Notre différentiel est de transformer la complexité en exécution. Nous structurons le planning, intégrons les équipes et conduisons l’opération sur le terrain.',
+            p1: 'Nous sommes un cabinet de conseil en événements spécialisé en opérations, logistique, gestion de projet et expérience du public, avec une approche de bout en bout — de la planification stratégique à l’exécution terrain.',
+            p2: 'Nous réunissons un leadership expérimenté et une vision pratique, construits à partir d’une solide expérience de projets de grande échelle au Brésil, en Argentine et en Uruguay, avec une forte présence en motorsport, hospitalité premium et événements корпоративatifs stratégiques. Nous agissons comme point de convergence entre équipes internes, fournisseurs, sponsors et organisation de l’événement, garantissant alignement du calendrier, clarté des flux, sécurité et expériences cohérentes du début à la fin.',
+            p3: 'Notre action va au-delà de l’exécution : nous dessinons des parcours d’expérience, structurons les processus et soutenons les décisions stratégiques, en veillant à ce que chaque interaction — de l’accès du public à l’hospitalité VIP — soit fluide, cohérente et alignée aux objectifs du projet et des marques impliquées.',
+            p4: 'Notre différence réside dans le leadership en environnements complexes. Nous transformons les défis opérationnels en livraisons bien orchestrées grâce à une planification structurée, une communication précise, une vision du risque et un rythme de piste. Cela nous permet de livrer avec excellence des événements nationaux et internationaux réunissant des dizaines de milliers de personnes, ainsi que des expériences exclusives pour C-levels, activations de marque et projets multi-stakeholders à forte visibilité.',
+            p5: 'Complexité organisée. Expériences bien livrées. Leadership sur le terrain.',
             leader: {
                 kicker: 'Leadership',
                 title: 'Qui est Larissa Coelho<br>',
                 role: 'Head de MALB*',
-                p1: 'Larissa est une spécialiste des opérations événementielles, expérience client et gestion de projets, avec plus de 5 ans d’expérience.',
-                p2: 'Elle a coordonné des productions internationales comme FIA WEC Rolex 6H São Paulo, Stock Car Championship, BH Stock Festival et Mr Moo Festival 10 ans.',
-                p3: 'Larissa combine planification stratégique, gestion financière et design de services.',
+                p1: 'Larissa est une professionnelle spécialisée en opérations d’événements de grande, moyenne et petite taille, expérience client et gestion de projet, avec plus de 5 ans d’expérience à diriger des projets de grande échelle alliant créativité, structure et précision.',
+                p2: 'Au cours de sa carrière, elle a coordonné des productions nationales et internationales de haute complexité, notamment FIA WEC – Rolex 6 Hours of São Paulo, Stock Car Championship, BH Stock Festival et le primé Mr Moo Festival – Édition spéciale 10 ans, qui a obtenu un record Guinness en 2025.',
+                p3: 'Son travail intègre planification stratégique, gestion financière et design de services, avec un focus sur des parcours cohérents, efficaces et centrés sur le public, garantissant que chaque projet délivre non seulement des résultats opérationnels mais aussi des expériences mémorables alignées au purpose des marques.',
                 quote: '"Je suis passionnée par la transformation d’opérations complexes en expériences fluides et centrées sur les personnes."',
                 cta: 'En savoir plus'
             }
@@ -551,11 +554,11 @@ const translations = {
         },
         achievements: {
             title: '<span class="highlight">Logros</span>',
-            card1: { title: 'Récord Mundial Guinness', desc: 'Como Productora Ejecutiva, lideró el Festival Mr Moo (Edición 10 Años), obteniendo el reconocimiento oficial como el Mayor Festival de Barbacoa del Mundo, con más de 700 profesionales coordinados.' },
-            card2: { title: 'Liderazgo a Gran Escala', desc: 'Gestionó con éxito más de 30 eventos nacionales de automovilismo, con más de 80.000 participantes, garantizando logística y hospitalidad impecables.' },
-            card3: { title: 'Innovación Operativa', desc: 'Pionera en la autenticación digital por reconocimiento facial, eliminando plásticos, reduciendo costos y estableciendo un nuevo estándar de sostenibilidad.' },
-            card4: { title: 'Transformación de Sistemas', desc: 'Implementó sistemas integrados de ticketing y finanzas, mejorando la visibilidad de datos y acelerando decisiones estratégicas.' },
-            card5: { title: 'Eficiencia Organizacional', desc: 'Impulsó un aumento del 30% en la eficiencia del flujo de trabajo mediante la reformulación de procesos y herramientas de coordinación en tiempo real.' },
+            card1: { title: 'Festival Mr Moo – Edición 10 Años', desc: 'Como Productora Ejecutiva, edición que garantizó al evento el título de Guinness World Records como el Mayor Festival de Barbacoa del Mundo, con grandes shows, público de miles de personas y más de 700 profesionales involucrados.' },
+            card2: { title: 'Liderazgo a Gran Escala', desc: 'Gestión de más de 30 eventos nacionales de automovilismo, reuniendo a más de 80.000 participantes, con excelencia en logística y hospitalidad en 3 países y más de 20 ciudades.' },
+            card3: { title: 'Innovación Operativa', desc: 'Implementación pionera de autenticación digital por reconocimiento facial, eliminando el uso de plásticos, reduciendo costos operativos y estableciendo un nuevo estándar de sostenibilidad en la acreditación.' },
+            card4: { title: 'Transformación de Sistemas', desc: 'Implementación de sistemas integrados de ticketing y finanzas, ampliando la visibilidad de datos, reduciendo errores manuales y acelerando la toma de decisiones estratégicas.' },
+            card5: { title: 'Eficiencia Organizacional', desc: 'Aumento del 30% en la eficiencia del flujo de trabajo mediante la reformulación de procesos y la implementación de herramientas de coordinación en tiempo real.' },
             card6: { title: 'Esto es MALB' }
         },
         portfolio: {
@@ -563,7 +566,7 @@ const translations = {
             subtitle: 'Explora la trayectoria',
             stock: {
                 role: 'Sr Producer & Coord. Operaciones',
-                desc: 'A lo largo de cuatro años, evolucioné del soporte administrativo/financiero al liderazgo de operaciones nacionales en Stock Car, coordinando logística, hospitalidad y customer experience en proyectos de gran escala en Brasil. Planifiqué y entregué más de 30 eventos de motorsport, garantizando excelencia operativa, integración entre áreas y consistencia en la experiencia del público.',
+                desc: 'A lo largo de cuatro años, evolución del soporte administrativo/financiero al liderazgo de operaciones nacionales en Stock Car, con actuación en la coordinación de logística, hospitalidad y customer experience en proyectos de gran escala en Brasil. Participación en la planificación y entrega de más de 30 eventos de motorsport, garantizando excelencia operativa, integración entre áreas y consistencia en la experiencia del público.',
                 hl1: 'Planificación y ejecución de logística a gran escala',
                 hl2: 'Desarrollo de procesos de ticketing',
                 hl3: 'Gestión de crisis y service recovery',
@@ -571,51 +574,50 @@ const translations = {
             },
             mrmoo: {
                 role: 'Executive Producer (Guinness Project)',
-                desc: 'Actuación como Executive Producer en un proyecto de alta complejidad que culminó en el Guinness World Record (Mayor Festival de Barbacoa del Mundo).',
-                hl1: 'Planificación operativa de alto impacto',
-                hl2: 'Gestión de equipos multidisciplinarios',
-                hl3: 'Ejecución Guinness World Record',
-                hl4: 'Fortalecimiento de presencia de marca'
+                desc: 'Actuación como Executive Producer en un proyecto de alta complejidad que resultó en el reconocimiento internacional de Guinness World Records como el Mayor Festival de Barbacoa del Mundo, con foco en la operación y gobernanza del evento.',
+                hl1: 'Gestión de acreditaciones y control de accesos',
+                hl2: 'Organización y flujo de acceso del público',
+                hl3: 'Soporte directo a la dirección'
             },
             wec: {
                 role: 'Coordinación General y Estratégica',
-                desc: 'Coordiné la operación del WEC en São Paulo, alineando equipos locales e internacionales, supervisando activaciones de socios, hospitalidad y logística, con foco en conformidad FIA/ACO. La edición 2025 recibió 80.000+ personas, y continúo liderando la planificación de la edición 2026.',
-                hl1: 'Producción internacional (80k+ pax)',
-                hl2: 'Gestión de stakeholders (FIA/ACO/Sponsors)',
-                hl3: 'Supervisión de hospitalidad y VIP',
-                hl4: 'Garantía de conformidad y seguridad'
+                desc: 'Actuación en PMO en la coordinación estratégica del FIA WEC – Rolex 6 Horas de São Paulo, promoviendo el alineamiento entre equipos locales e internacionales, la gobernanza del proyecto y la organización de la planificación de medio y largo plazo. La edición 2025 recibió más de 80.000 personas, con continuidad en el liderazgo de la planificación de la edición 2026.',
+                hl1: 'Gestión integrada de proyectos de producción internacional (80k+ participantes)',
+                hl2: 'Gobernanza y gestión de stakeholders institucionales y patrocinadores',
+                hl3: 'Soporte directo a la dirección, estructurando flujos estratégicos de información',
+                hl4: 'Elaboración y consolidación de informes gerenciales, garantizando visibilidad ejecutiva y alineamiento entre áreas'
             },
             bh: {
                 role: 'Project Manager Operaciones',
-                desc: 'Evento en el Mineirão que unió motorsport, música y entretenimiento en una producción multi-experiencia. Como PM, aseguré el alineamiento entre Stock Car y el equipo del festival, coordinando operaciones, timelines e infraestructura.',
-                hl1: 'Integración de equipos y gobernanza',
-                hl2: 'Logística compleja en estadio',
-                hl3: 'Consistencia de experiencia a gran escala',
+                desc: 'Evento realizado en el Mineirão que integró motorsport, música y entretenimiento en una producción multi-experiencia. Actuación como PM garantizando el alineamiento entre Stock Car y el equipo del festival, con coordinación de operaciones, gestión de cronogramas e infraestructura, asegurando flujo del público, seguridad y consistencia de entrega a gran escala.',
+                hl1: 'Integración de equipos y estructuración de gobernanza',
+                hl2: 'Gestión de logística compleja en entorno de estadio',
+                hl3: 'Garantía de consistencia de la experiencia del público a gran escala',
                 hl4: 'Gestión de acreditación e infraestructura'
             },
             juntos: {
                 role: 'Project Manager Engagement',
-                desc: 'Experiencia corporativa interna en el autódromo, creada con RH para fortalecer cultura y compromiso. Lideré la planificación y ejecución operacional conectando colaboradores con la producción de motorsport.',
-                hl1: 'Co-creación de concepto con RH',
-                hl2: 'Logística y gestión de invitados',
-                hl3: 'Ejecución completa on-site',
-                hl4: 'Fortalecimiento del propósito de la empresa'
+                desc: 'Experiencia corporativa interna realizada en el autódromo, desarrollada en asociación con el área de RH para fortalecer cultura y compromiso organizacional. Actuación en planificación y coordinación del proyecto, conectando colaboradores con los bastidores de la producción y operaciones del motorsport, con entrega de una jornada de alto impacto, alineada y fluida.',
+                hl1: 'Co-creación de concepto en asociación con RH',
+                hl2: 'Planificación logística y gestión de invitados',
+                hl3: 'Coordinación de la ejecución on-site',
+                hl4: 'Fortalecimiento del propósito y cultura organizacional'
             },
             ctio: {
                 role: 'Project Manager Coordinación VIP',
-                desc: 'Evento premium para la división de tecnología, reuniendo CTIOs y líderes en un día exclusivo con networking y experiencias en el autódromo. Conduje la planificación operativa, logística VIP y coordinación de socios.',
+                desc: 'Evento premium para la división de tecnología, reuniendo CTIOs y líderes en una experiencia exclusiva en el autódromo, con foco en networking, prospección y relación estratégica. Actuación en la planificación del proyecto, logística VIP y coordinación de socios, asegurando una entrega alineada al branding y a los objetivos de relación.',
                 hl1: 'Hospitalidad premium y guest relations',
-                hl2: 'Formato integrado: Tech + Motorsport',
-                hl3: 'Producción de alto nivel',
-                hl4: 'Enfoque en relacionamiento y adquisición'
+                hl2: 'Desarrollo de formato integrado entre tecnología y motorsport',
+                hl3: 'Producción de experiencia de alto nivel',
+                hl4: 'Foco estratégico en relacionamiento y adquisición'
             },
             f4: {
-                role: 'Project Manager Ecosistema F1',
-                desc: 'Por dos años consecutivos, coordiné la Fórmula 4 Brasil dentro del ecosistema del GP de F1 en São Paulo, actuando como puente operativo entre equipos, garantizando alineamiento de cronogramas, seguridad, accesos, transporte y operación de pista.',
+                role: 'Project Manager - Ecosistema F1',
+                desc: 'Coordinación de la Fórmula 4 Brasil por dos años consecutivos dentro del ecosistema del GP de Fórmula 1 en São Paulo, actuando como interfaz estratégica entre los equipos involucrados. Responsabilidad por el alineamiento de cronogramas, seguridad, accesos, transporte y operación de pista, en un ambiente de alta complejidad, presión y precisión.',
                 hl1: 'Gestión de logística de la delegación F4',
-                hl2: 'Puente operativo F1 ↔ F4',
-                hl3: 'Transporte, travel y operación de pista',
-                hl4: 'Ejecución reconocida por sincronización'
+                hl2: 'Interfaz y alineamiento operacional entre ecosistemas F1 y F4',
+                hl3: 'Coordinación de transporte, travel y operación de pista',
+                hl4: 'Ejecución reconocida por alta sincronización entre frentes'
             },
             siasp: {
                 role: 'Project Manager.',
@@ -634,7 +636,7 @@ const translations = {
                 scale: 'Logística Escala',
                 suppliers: 'Proveedores',
                 guinness: 'Guinness Planning',
-                experience: 'Experiencia',
+                experience: 'Experiencia del visitante y alto volumen de engagement',
                 strategy: 'Estrategia',
                 intOps: 'Operaciones Int.',
                 stakeholders: 'Stakeholders',
@@ -678,16 +680,18 @@ const translations = {
         aboutPage: {
             kicker: 'Institucional',
             title: 'Quiénes somos.',
-            p1: 'Somos una consultoría de eventos especializada en operaciones, logística y entrega end-to-end.',
-            p2: 'Tenemos experiencia sólida en proyectos de gran escala en Brasil, con fuerte presencia en motorsport, hospitalidad premium y eventos corporativos estratégicos. Actuamos como punto de convergencia entre equipos internos, proveedores, patrocinadores y la organización del evento, garantizando alineamiento de cronograma, conformidad, seguridad y experiencia del público de inicio a fin.',
-            p3: 'Nuestro diferencial es transformar complejidad en ejecución. Estructuramos la planificación, integramos áreas y lideramos la operación en campo con comunicación precisa, visión de riesgo y ritmo de pista. Entregamos con consistencia tanto en eventos nacionales e internacionales como en experiencias VIP para C-levels y activaciones de marca.',
+            p1: 'Somos una consultoría de eventos especializada en operaciones, logística, gestión de proyectos y experiencia del público, con actuación de punta a punta — del planeamiento estratégico a la entrega en campo.',
+            p2: 'Reunimos liderazgo experimentado y visión práctica, construidos a partir de una vivencia sólida en proyectos de gran escala en Brasil, Argentina y Uruguay, con fuerte presencia en motorsport, hospitalidad premium y eventos corporativos estratégicos. Actuamos como punto de convergencia entre equipos internos, proveedores, patrocinadores y la organización del evento, garantizando alineamiento de cronograma, claridad de flujos, seguridad y experiencias consistentes del inicio al fin.',
+            p3: 'Nuestra actuación va más allá de la ejecución: diseñamos jornadas de experiencia, estructuramos procesos y apoyamos decisiones estratégicas, asegurando que cada interacción — del acceso del público a la hospitalidad VIP — sea fluida, coherente y alineada a los objetivos del proyecto y de las marcas involucradas.',
+            p4: 'Nuestro diferencial está en el liderazgo en ambientes complejos. Transformamos desafíos operativos en entregas bien orquestadas por medio de planeamiento estructurado, comunicación precisa, visión de riesgo y ritmo de pista. Esto nos permite entregar con excelencia tanto eventos nacionales e internacionales con decenas de miles de personas, como experiencias exclusivas para C-levels, activaciones de marca y proyectos multistakeholder de alta visibilidad.',
+            p5: 'Complejidad organizada. Experiencias bien entregadas. Liderazgo en campo.',
             leader: {
                 kicker: 'Liderazgo',
                 title: 'Quién es Larissa Coelho<br>',
                 role: 'Head de MALB*',
-                p1: 'Larissa es una profesional especializada en operaciones de eventos de gran, mediano y pequeño porte, experiencia del cliente y gestión de proyectos, con más de 5 años liderando proyectos de gran escala que combinan creatividad, estructura y precisión.',
-                p2: 'Coordinó producciones internacionales como FIA WEC Rolex 6 Horas de São Paulo, Stock Car Championship, BH Stock Festival y el premiado Mr Moo Festival Edición Especial de 10 Años, que conquistó un récord mundial Guinness en 2025.',
-                p3: 'Larissa combina planificación estratégica, gestión financiera y diseño de servicios para garantizar que cada evento o proyecto sea eficiente, significativo y memorable.',
+                p1: 'Larissa es una profesional especialista en Operaciones de Eventos de gran, mediano y pequeño porte, Experiencia del Cliente y Gestión de Proyectos, con más de 5 años de experiencia liderando proyectos de gran escala que combinan creatividad, estructura y precisión.',
+                p2: 'A lo largo de su trayectoria, coordinó producciones nacionales e internacionales de alta complejidad, incluyendo el FIA WEC – Rolex 6 Horas de São Paulo, el Stock Car Championship, el BH Stock Festival y el premiado Festival Mr Moo – Edición Especial de 10 Años, que conquistó un récord mundial del Guinness en 2025.',
+                p3: 'Su trabajo integra planeamiento estratégico, gestión financiera y diseño de servicios, con foco en construir jornadas consistentes, eficientes y centradas en el público, garantizando que cada proyecto entregue no solo resultados operativos, sino también experiencias memorables y alineadas al propósito de las marcas.',
                 quote: '"Me apasiona transformar operaciones complejas en experiencias fluidas y centradas en las personas, que conectan marcas, equipos y públicos."',
                 cta: 'Saber más'
             }
@@ -727,11 +731,11 @@ const translations = {
         },
         achievements: {
             title: '<span class="highlight">Realizări</span>',
-            card1: { title: 'Record Guinness', desc: 'Ca Executive Producer, a condus Festivalul Mr Moo (ediția 10 ani), obținând recunoașterea oficială pentru cel mai mare festival de grătar din lume, cu 700+ profesioniști coordonați.' },
-            card2: { title: 'Leadership la scară mare', desc: 'A gestionat cu succes 30+ evenimente naționale de motorsport, cu peste 80.000 participanți, asigurând logistică și ospitalitate impecabile.' },
-            card3: { title: 'Inovație operațională', desc: 'A pionierat autentificarea digitală prin recunoaștere facială, eliminând plasticul și reducând costurile.' },
-            card4: { title: 'Transformarea sistemelor', desc: 'A implementat sisteme integrate de ticketing și financiar, îmbunătățind vizibilitatea datelor și accelerând deciziile.' },
-            card5: { title: 'Eficiență organizațională', desc: 'A crescut cu 30% eficiența fluxului de lucru prin reproiectarea proceselor și instrumente de coordonare în timp real.' },
+            card1: { title: 'Festivalul Mr Moo – Ediția 10 ani', desc: 'Ca Executive Producer, ediție care a adus evenimentului titlul Guinness World Records pentru cel mai mare festival de grătar din lume, cu show-uri mari, mii de participanți și peste 700 de profesioniști implicați.' },
+            card2: { title: 'Leadership la scară mare', desc: 'Gestionarea a peste 30 de evenimente naționale de motorsport, reunind peste 80.000 de participanți, cu excelență în logistică și ospitalitate în 3 țări și peste 20 de orașe.' },
+            card3: { title: 'Inovație operațională', desc: 'Implementare pionieră a autentificării digitale prin recunoaștere facială, eliminând utilizarea plasticului, reducând costurile operaționale și stabilind un nou standard de sustenabilitate în acreditare.' },
+            card4: { title: 'Transformarea sistemelor', desc: 'Implementarea de sisteme integrate de ticketing și financiar, extinzând vizibilitatea datelor, reducând erorile manuale și accelerând deciziile strategice.' },
+            card5: { title: 'Eficiență organizațională', desc: 'Creștere de 30% a eficienței fluxului de lucru prin reproiectarea proceselor și implementarea de instrumente de coordonare în timp real.' },
             card6: { title: 'Asta este MALB' }
         },
         portfolio: {
@@ -739,7 +743,7 @@ const translations = {
             subtitle: 'Explorați parcursul',
             stock: {
                 role: 'Sr Producer & Coordonator Operațiuni',
-                desc: 'În patru ani, am evoluat de la suport administrativ/financiar la conducerea operațiunilor naționale în Stock Car, coordonând logistică, ospitalitate și experiența clienților.',
+                desc: 'În patru ani, evoluție de la suport administrativ/financiar la conducerea operațiunilor naționale în Stock Car, coordonând logistică, ospitalitate și experiența clientului în proiecte de mare amploare în Brazilia. Participare la planificarea și livrarea a peste 30 de evenimente de motorsport, asigurând excelență operațională, integrare între echipe și consistență în experiența publicului.',
                 hl1: 'Planificare și execuție logistică la scară mare',
                 hl2: 'Dezvoltarea proceselor de ticketing',
                 hl3: 'Gestionarea crizelor și service recovery',
@@ -747,51 +751,50 @@ const translations = {
             },
             mrmoo: {
                 role: 'Executive Producer (Guinness Project)',
-                desc: 'Executive Producer într-un proiect de complexitate ridicată ce a culminat cu un Guinness World Record.',
-                hl1: 'Planificare operațională cu impact ridicat',
-                hl2: 'Managementul echipelor multidisciplinare',
-                hl3: 'Execuție Guinness World Record',
-                hl4: 'Consolidarea prezenței brandului'
+                desc: 'Executive Producer într-un proiect de mare complexitate care a adus recunoașterea internațională Guinness World Records pentru cel mai mare festival de grătar din lume, cu focus pe operațiunile și guvernanța evenimentului.',
+                hl1: 'Managementul acreditărilor și controlul accesului',
+                hl2: 'Organizarea fluxului de acces al publicului',
+                hl3: 'Suport direct pentru leadership'
             },
             wec: {
                 role: 'Coordonare Generală & Strategică',
-                desc: 'Coordonare strategică și operațională WEC la São Paulo, aliniind echipe locale și internaționale, supervizând activări, ospitalitate și logistică.',
-                hl1: 'Producție internațională (80k+ pax)',
-                hl2: 'Management stakeholderi (FIA/ACO/Sponsors)',
-                hl3: 'Supervizare ospitalitate și VIP',
-                hl4: 'Conformitate și siguranță'
+                desc: 'Coordonare PMO pentru FIA WEC – Rolex 6 Hours of São Paulo, aliniind echipe locale și internaționale, asigurând guvernanța proiectului și organizarea planificării pe termen mediu și lung. Ediția 2025 a avut peste 80.000 de persoane, cu continuitate în leadershipul planificării pentru 2026.',
+                hl1: 'Management integrat al proiectelor de producție internațională (80k+ participanți)',
+                hl2: 'Guvernanță și management al stakeholderilor instituționali și sponsorilor',
+                hl3: 'Suport direct pentru leadership, cu structurarea fluxurilor strategice de informații',
+                hl4: 'Elaborare și consolidare de rapoarte manageriale, asigurând vizibilitate executivă și aliniere între echipe'
             },
             bh: {
                 role: 'Project Manager Operațiuni',
-                desc: 'Eveniment la Mineirão ce a combinat motorsport, muzică și divertisment. Ca PM, am coordonat operațiuni, timeline-uri și infrastructură.',
-                hl1: 'Integrarea echipelor și guvernanță',
-                hl2: 'Logistică complexă pe stadion',
-                hl3: 'Consistență a experienței la scară',
-                hl4: 'Gestionare acreditări și infrastructură'
+                desc: 'Eveniment organizat la Mineirão care a integrat motorsport, muzică și divertisment într-o producție multi-experiență. Ca PM, am asigurat alinierea între Stock Car și echipa festivalului, coordonând operațiunile, managementul cronogramelor și infrastructura, garantând fluxul publicului, siguranța și consistența livrării la scară mare.',
+                hl1: 'Integrarea echipelor și structurarea guvernanței',
+                hl2: 'Management logistic complex într-un mediu de stadion',
+                hl3: 'Garanția consistenței experienței publicului la scară mare',
+                hl4: 'Managementul acreditărilor și infrastructurii'
             },
             juntos: {
                 role: 'Project Manager Engajare',
-                desc: 'Experiență corporativă internă la circuit, creată cu HR pentru a întări cultura și angajamentul.',
-                hl1: 'Co-creare de concept cu HR',
-                hl2: 'Logistică și gestionare invitați',
-                hl3: 'Execuție completă on-site',
-                hl4: 'Consolidarea scopului companiei'
+                desc: 'Experiență corporativă internă pe circuit, dezvoltată împreună cu HR pentru a consolida cultura și engagementul organizațional. Planificare și coordonare a proiectului, conectând colaboratorii la culisele producției și operațiunilor motorsport, cu o livrare de impact, aliniată și fluidă.',
+                hl1: 'Co-crearea conceptului împreună cu HR',
+                hl2: 'Planificare logistică și managementul invitaților',
+                hl3: 'Coordonarea execuției on-site',
+                hl4: 'Consolidarea scopului și culturii organizaționale'
             },
             ctio: {
                 role: 'Project Manager Coordonare VIP',
-                desc: 'Eveniment premium pentru divizia tech, cu CTIO și lideri. Planificare operațională, logistică VIP și coordonare parteneri.',
+                desc: 'Eveniment premium pentru divizia de tehnologie, reunind CTIOs și lideri într-o experiență exclusivă pe circuit, cu focus pe networking, prospectare și relaționare strategică. Coordonare a planificării proiectului, logisticii VIP și partenerilor, asigurând o livrare aliniată cu brandingul și obiectivele de relaționare.',
                 hl1: 'Ospitalitate premium și guest relations',
-                hl2: 'Format integrat: Tech + Motorsport',
-                hl3: 'Producție de înalt standard',
-                hl4: 'Focus pe relaționare și achiziție'
+                hl2: 'Dezvoltarea unui format integrat între tehnologie și motorsport',
+                hl3: 'Producție de experiență la standard înalt',
+                hl4: 'Focus strategic pe relaționare și achiziție'
             },
             f4: {
-                role: 'Project Manager Ecosistem F1',
-                desc: 'Coordonarea Formula 4 Brazilia în ecosistemul GP-ului de F1 São Paulo, asigurând aliniere, siguranță, acces și operațiuni de pistă.',
+                role: 'Project Manager - Ecosistem F1',
+                desc: 'Coordonarea Formulei 4 Brazilia timp de doi ani consecutivi în cadrul ecosistemului GP de Formula 1 din São Paulo, ca interfață strategică între echipele implicate. Responsabilitate pentru alinierea cronogramelor, siguranță, acces, transport și operațiuni de pistă, într-un mediu de mare complexitate și presiune.',
                 hl1: 'Gestionarea logisticii delegației F4',
-                hl2: 'Punte operațională F1 ↔ F4',
-                hl3: 'Transport, travel și operațiuni de pistă',
-                hl4: 'Execuție recunoscută pentru sincronizare'
+                hl2: 'Interfață și aliniere operațională între ecosistemele F1 și F4',
+                hl3: 'Coordonare transport, travel și operațiuni de pistă',
+                hl4: 'Execuție recunoscută pentru sincronizare ridicată între fronturi'
             },
             siasp: {
                 role: 'Project Manager.',
@@ -810,7 +813,7 @@ const translations = {
                 scale: 'Logistică la scară',
                 suppliers: 'Furnizori',
                 guinness: 'Planificare Guinness',
-                experience: 'Experiență',
+                experience: 'Experiența vizitatorilor și volum mare de engagement',
                 strategy: 'Strategie',
                 intOps: 'Op. Int.',
                 stakeholders: 'Stakeholderi',
@@ -854,16 +857,18 @@ const translations = {
         aboutPage: {
             kicker: 'Instituțional',
             title: 'Despre noi.',
-            p1: 'Suntem o consultanță de evenimente specializată în operațiuni, logistică și livrare end-to-end.',
-            p2: 'Avem experiență solidă în proiecte de scară mare în Brazilia, cu prezență puternică în motorsport, ospitalitate premium și evenimente corporate strategice.',
-            p3: 'Diferențiatorul nostru este să transformăm complexitatea în execuție. Structurăm planificarea, integrăm ariile și conducem operațiunile pe teren.',
+            p1: 'Suntem o consultanță de evenimente specializată în operațiuni, logistică, management de proiect și experiența publicului, cu livrare end-to-end — de la planificarea strategică la execuția pe teren.',
+            p2: 'Reunim leadership experimentat și o viziune practică, construite dintr-o experiență solidă în proiecte de mare amploare din Brazilia, Argentina și Uruguay, cu prezență puternică în motorsport, ospitalitate premium și evenimente corporate strategice. Acționăm ca punct de convergență între echipe interne, furnizori, sponsori și organizarea evenimentului, asigurând alinierea cronogramelor, claritatea fluxurilor, siguranța și experiențe consistente de la început până la final.',
+            p3: 'Activitatea noastră merge dincolo de execuție: proiectăm parcursuri de experiență, structurăm procese și susținem decizii strategice, asigurând că fiecare interacțiune — de la accesul publicului la ospitalitatea VIP — este fluidă, coerentă și aliniată obiectivelor proiectului și brandurilor implicate.',
+            p4: 'Diferențiatorul nostru este leadershipul în medii complexe. Transformăm provocările operaționale în livrări bine orchestrate prin planificare structurată, comunicare precisă, viziune asupra riscurilor și ritm de pistă. Asta ne permite să livrăm cu excelență atât evenimente naționale și internaționale cu zeci de mii de persoane, cât și experiențe exclusive pentru C-levels, activări de brand și proiecte multi-stakeholder de mare vizibilitate.',
+            p5: 'Complexitate organizată. Experiențe livrate bine. Leadership pe teren.',
             leader: {
                 kicker: 'Leadership',
                 title: 'Cine este Larissa Coelho<br>',
                 role: 'Head MALB*',
-                p1: 'Larissa este specialistă în operațiuni de evenimente, experiența clientului și management de proiect, cu peste 5 ani de experiență.',
-                p2: 'A coordonat producții internaționale precum FIA WEC Rolex 6H São Paulo, Stock Car Championship, BH Stock Festival și Mr Moo Festival 10 ani.',
-                p3: 'Larissa combină planificarea strategică, managementul financiar și designul de servicii.',
+                p1: 'Larissa este specialistă în operațiuni de evenimente de mare, mediu și mică amploare, experiența clientului și management de proiect, cu peste 5 ani de experiență în conducerea proiectelor de mare amploare care combină creativitatea, structura și precizia.',
+                p2: 'De-a lungul carierei sale, a coordonat producții naționale și internaționale de mare complexitate, inclusiv FIA WEC – Rolex 6 Hours of São Paulo, Stock Car Championship, BH Stock Festival și premiatul Mr Moo Festival – Ediția Specială de 10 ani, care a obținut un record Guinness în 2025.',
+                p3: 'Activitatea ei integrează planificarea strategică, managementul financiar și designul de servicii, cu focus pe construirea unor parcursuri consistente, eficiente și centrate pe public, asigurând că fiecare proiect livrează nu doar rezultate operaționale, ci și experiențe memorabile aliniate scopului brandurilor.',
                 quote: '"Sunt pasionată de transformarea operațiunilor complexe în experiențe fluide și centrate pe oameni."',
                 cta: 'Află mai multe'
             }
