@@ -57,7 +57,7 @@ a, button {
 .overlay {
   position: absolute;
   inset: 0;
-  background: radial-gradient(circle at top, rgba(40, 20, 80, 0.506), rgba(0, 0, 0, 0.637));
+  background: radial-gradient(circle at top, rgba(40, 20, 80, 0.35), rgba(0, 0, 0, 0.45));
 }
 
 .hero-content {
@@ -148,7 +148,7 @@ a, button {
   content: "";
   position: absolute;
   inset: 0;
-  background: linear-gradient(to bottom, rgba(5, 1, 10, 0.5), rgba(5, 1, 10, 0.9));
+  background: linear-gradient(to bottom, rgba(5, 1, 10, 0.35), rgba(5, 1, 10, 0.75));
   pointer-events: none;
   z-index: 0;
 }
@@ -295,7 +295,7 @@ a, button {
   left: 0;
   width: 100%;
   height: 100%;
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.25), rgba(86, 62, 134, 0.45));
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.18), rgba(86, 62, 134, 0.35));
   pointer-events: none;
   z-index: 1;
 }
@@ -406,7 +406,7 @@ a, button {
   left: 0;
   width: 100%;
   height: 100%;
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.85));
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.7));
   pointer-events: none;
   z-index: 1;
 }
@@ -521,7 +521,7 @@ a, button {
   left: 0;
   width: 100%;
   height: 100%;
-  background: linear-gradient(to bottom, rgba(5, 1, 10, 0.2), rgba(5, 1, 10, 0.8));
+  background: linear-gradient(to bottom, rgba(5, 1, 10, 0.15), rgba(5, 1, 10, 0.65));
   pointer-events: none;
   z-index: 0;
 }
@@ -1103,7 +1103,7 @@ a, button {
   background-position: center bottom;
   background-size: cover;
   background-attachment: fixed;
-  opacity: 0.5;
+  opacity: 0.4;
   pointer-events: none;
   z-index: 0;
 }
@@ -1317,7 +1317,7 @@ a, button {
   background-size: cover;
   background-position: center;
   background-blend-mode: hard-light;
-  opacity: 0.9;
+  opacity: 0.8;
   pointer-events: none;
   z-index: 0;
 }
@@ -1611,7 +1611,7 @@ a, button {
   }
   
   .page-quem-somos .qs-bg {
-    opacity: 0.25;
+    opacity: 0.2;
     inset: 0;
     width: 100vw;
     height: 100vh;
