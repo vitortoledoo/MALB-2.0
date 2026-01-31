@@ -4,6 +4,22 @@ const navLang = document.querySelector('.nav-lang');
 const langToggle = document.querySelector('.lang-toggle');
 const langMenu = document.querySelector('.lang-menu');
 const langButtons = document.querySelectorAll('.lang-menu [data-lang]');
+const safeStorage = {
+    get(key) {
+        try {
+            return localStorage.getItem(key);
+        } catch (error) {
+            return null;
+        }
+    },
+    set(key, value) {
+        try {
+            localStorage.setItem(key, value);
+        } catch (error) {
+            // no-op
+        }
+    }
+};
 
 const translations = {
     pt: {
@@ -945,7 +961,7 @@ const updateLangToggle = (lang) => {
 };
 
 if (langToggle && langMenu) {
-    const storedLang = localStorage.getItem('lang') || 'pt';
+    const storedLang = safeStorage.get('lang') || 'pt';
     applyTranslations(storedLang);
     updateLangToggle(storedLang);
 
@@ -960,7 +976,7 @@ if (langToggle && langMenu) {
     langButtons.forEach((button) => {
         button.addEventListener('click', () => {
             const lang = button.dataset.lang || 'pt';
-            localStorage.setItem('lang', lang);
+            safeStorage.set('lang', lang);
             applyTranslations(lang);
             updateLangToggle(lang);
             if (navLang) {
