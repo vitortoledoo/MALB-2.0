@@ -1253,7 +1253,7 @@ a, button {
   background-size: cover;
   background-position: center;
   background-blend-mode: hard-light;
-  opacity: 0.6;
+  opacity: 0.9;
   pointer-events: none;
   z-index: 0;
 }
