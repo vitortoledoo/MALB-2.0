@@ -161,7 +161,7 @@ const translations = {
                 kicker: 'Liderança',
                 title: 'Quem é Larissa Coelho<br>',
                 role: 'Head da MALB*',
-                p1: 'Larissa é uma profissional especialista em Operações de Eventos de grande, médio e pequeno porte, Experiência do Cliente e Gestão de Projetos, com mais de 5 anos de experiência liderando projetos de grande escala que combinam criatividade, estrutura e precisão.',
+                p1: 'Larissa é uma profissonal especialista em Operações de Eventos de grande, médio e pequeno porte, Experiência do Cliente e Gestão de Projetos, com mais de 5 anos de experiência liderando projetos de grande escala que combinam criatividade, estrutura e precisão.',
                 p2: 'Ao longo de sua trajetória, coordenou produções nacionais e internacionais de alta complexidade, incluindo o FIA WEC – Rolex 6 Horas de São Paulo, o Stock Car Championship, o BH Stock Festival e o premiado Festival Mr Moo – Edição Especial de 10 Anos, que conquistou um recorde mundial do Guinness em 2025.',
                 p3: 'Seu trabalho integra planejamento estratégico, gestão financeira e design de serviços, com foco na construção de jornadas consistentes, eficientes e centradas no público, garantindo que cada projeto entregue não apenas resultados operacionais, mas também experiências memoráveis e alinhadas ao propósito das marcas.',
                 quote: '"Sou apaixonada por transformar operações complexas em experiências fluidas e centradas nas pessoas, que conectam marcas, equipes e públicos."',
@@ -169,7 +169,7 @@ const translations = {
             }
         },
         contact: {
-            title: 'Tem um projeto em mente?<br><span class="highlight">Conte para a gente!</span>',
+            title: 'Tem um projeto em mente ? <br><span class="highlight">conte para gente!</span>',
             desc: 'Grandes experiências começam com uma boa estratégia. O seu desafio é o nosso trabalho.',
             emailLabel: 'Fale com a gente',
             locationLabel: 'Base',
@@ -178,7 +178,6 @@ const translations = {
             emailField: 'E-mail',
             messageLabel: 'Sobre o projeto...',
             submit: 'Enviar sua ideia',
-            formNotice: 'Formulário em configuração, contate por e-mail ou WhatsApp.',
             namePlaceholder: ' ',
             emailPlaceholder: ' ',
             messagePlaceholder: ' '
@@ -347,7 +346,7 @@ const translations = {
             }
         },
         contact: {
-            title: 'Have a project in mind?<br><span class="highlight">Tell us about it!</span>',
+            title: 'Have a project in mind? <br><span class="highlight">Tell us about it!</span>',
             desc: 'Great experiences start with a good strategy. Your challenge is our work.',
             emailLabel: 'Talk to us',
             locationLabel: 'Based in',
@@ -356,7 +355,6 @@ const translations = {
             emailField: 'Email',
             messageLabel: 'About the project...',
             submit: 'Send your idea',
-            formNotice: 'Form is being configured. Contact us by email or WhatsApp.',
             namePlaceholder: ' ',
             emailPlaceholder: ' ',
             messagePlaceholder: ' '
@@ -525,7 +523,7 @@ const translations = {
             }
         },
         contact: {
-            title: 'Un projet en tête ?<br><span class="highlight">Parlez-nous-en !</span>',
+            title: 'Un projet en tête ? <br><span class="highlight">Parlez-nous-en !</span>',
             desc: 'Les grandes expériences commencent par une bonne stratégie. Votre défi est notre travail.',
             emailLabel: 'Parlez avec nous',
             locationLabel: 'Base',
@@ -534,7 +532,6 @@ const translations = {
             emailField: 'E-mail',
             messageLabel: 'À propos du projet...',
             submit: 'Envoyez votre idée',
-            formNotice: 'Formulaire en cours de configuration. Contactez-nous par e-mail ou WhatsApp.',
             namePlaceholder: ' ',
             emailPlaceholder: ' ',
             messagePlaceholder: ' '
@@ -703,7 +700,7 @@ const translations = {
             }
         },
         contact: {
-            title: '¿Tienes un proyecto en mente?<br><span class="highlight">¡Cuéntanos!</span>',
+            title: '¿Tienes un proyecto en mente? <br><span class="highlight">¡Cuéntanos!</span>',
             desc: 'Las grandes experiencias comienzan con una buena estrategia. Tu desafío es nuestro trabajo.',
             emailLabel: 'Habla con nosotros',
             locationLabel: 'Base',
@@ -712,7 +709,6 @@ const translations = {
             emailField: 'E-mail',
             messageLabel: 'Sobre el proyecto...',
             submit: 'Envía tu idea',
-            formNotice: 'Formulario en configuración. Contáctanos por e-mail o WhatsApp.',
             namePlaceholder: ' ',
             emailPlaceholder: ' ',
             messagePlaceholder: ' '
@@ -881,7 +877,7 @@ const translations = {
             }
         },
         contact: {
-            title: 'Ai un proiect în minte?<br><span class="highlight">Spune-ne!</span>',
+            title: 'Ai un proiect în minte? <br><span class="highlight">Spune-ne!</span>',
             desc: 'Experiențele mari încep cu o strategie bună. Provocarea ta este munca noastră.',
             emailLabel: 'Vorbește cu noi',
             locationLabel: 'Sediu',
@@ -890,7 +886,6 @@ const translations = {
             emailField: 'Email',
             messageLabel: 'Despre proiect...',
             submit: 'Trimite ideea ta',
-            formNotice: 'Formular în configurare. Contactează-ne prin e-mail sau WhatsApp.',
             namePlaceholder: ' ',
             emailPlaceholder: ' ',
             messagePlaceholder: ' '
@@ -952,7 +947,6 @@ const updateLangToggle = (lang) => {
 if (langToggle && langMenu) {
     const storedLang = localStorage.getItem('lang') || 'pt';
     applyTranslations(storedLang);
-    updateContactFormState();
     updateLangToggle(storedLang);
 
     langToggle.addEventListener('click', () => {
@@ -968,7 +962,6 @@ if (langToggle && langMenu) {
             const lang = button.dataset.lang || 'pt';
             localStorage.setItem('lang', lang);
             applyTranslations(lang);
-            updateContactFormState();
             updateLangToggle(lang);
             if (navLang) {
                 navLang.classList.remove('open');
@@ -993,9 +986,7 @@ if (langToggle && langMenu) {
     });
 }
 
-const canUseCustomCursor = !!(cursorDot && cursorOutline && (!window.matchMedia || !window.matchMedia('(pointer: coarse)').matches));
-
-if (canUseCustomCursor) {
+if (cursorDot && cursorOutline) {
     window.addEventListener('mousemove', (e) => {
         const posX = e.clientX;
         const posY = e.clientY;
@@ -1007,49 +998,6 @@ if (canUseCustomCursor) {
         }, { duration: 500, fill: "forwards" });
     });
 }
-
-const siteConfig = window.SITE_CONFIG || {};
-const contactForm = document.querySelector('.glass-form');
-
-const updateContactFormState = () => {
-    if (!contactForm) {
-        return;
-    }
-
-    const submitBtn = contactForm.querySelector('.submit-btn');
-    const formStatus = contactForm.querySelector('.form-status');
-    const endpoint = typeof siteConfig.FORMSPREE_ENDPOINT === 'string' ? siteConfig.FORMSPREE_ENDPOINT.trim() : '';
-    const isValidEndpoint = endpoint && !endpoint.includes('SEU_CODIGO');
-
-    if (isValidEndpoint) {
-        contactForm.setAttribute('action', endpoint);
-        if (submitBtn) {
-            submitBtn.disabled = false;
-            submitBtn.removeAttribute('aria-disabled');
-        }
-        if (formStatus) {
-            formStatus.textContent = '';
-            formStatus.classList.remove('is-warning');
-        }
-    } else {
-        contactForm.setAttribute('action', '');
-        if (!contactForm.dataset.formGuard) {
-            contactForm.addEventListener('submit', (event) => {
-                event.preventDefault();
-            });
-            contactForm.dataset.formGuard = 'true';
-        }
-        if (submitBtn) {
-            submitBtn.disabled = true;
-            submitBtn.setAttribute('aria-disabled', 'true');
-        }
-        if (formStatus) {
-            formStatus.classList.add('is-warning');
-        }
-    }
-};
-
-updateContactFormState();
 
 if (typeof Lenis !== 'undefined') {
     const lenis = new Lenis({

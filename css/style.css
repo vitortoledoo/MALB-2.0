@@ -48,33 +48,6 @@ a, button {
   border: 0;
 }
 
-.skip-link {
-  position: absolute;
-  top: 12px;
-  left: 12px;
-  padding: 10px 16px;
-  background: #fff;
-  color: #000;
-  border-radius: 999px;
-  font-weight: 600;
-  text-decoration: none;
-  transform: translateY(-200%);
-  transition: transform 0.2s ease;
-  z-index: 10001;
-}
-
-.skip-link:focus {
-  transform: translateY(0);
-}
-
-a:focus-visible,
-button:focus-visible,
-input:focus-visible,
-textarea:focus-visible {
-  outline: 2px solid var(--accent);
-  outline-offset: 3px;
-}
-
 .hero {
   height: 100vh;
   background: url("../img/lambe\ lambe.png") center/cover fixed;
@@ -876,45 +849,6 @@ textarea:focus-visible {
   transition: width .2s, height .2s, background-color .2s;
 }
 
-@media (pointer: coarse) {
-  body {
-    cursor: auto;
-  }
-
-  a,
-  button {
-    cursor: pointer;
-  }
-
-  .scroll-down {
-    cursor: pointer !important;
-  }
-
-  .cursor-dot,
-  .cursor-outline {
-    display: none;
-  }
-}
-
-@media (prefers-reduced-motion: reduce) {
-  html {
-    scroll-behavior: auto;
-  }
-
-  *,
-  *::before,
-  *::after {
-    animation-duration: 0.01ms !important;
-    animation-iteration-count: 1 !important;
-    transition-duration: 0.01ms !important;
-  }
-
-  .cursor-dot,
-  .cursor-outline {
-    display: none;
-  }
-}
-
 .scroll-down {
   position: absolute;
   bottom: 30px;
@@ -1583,28 +1517,10 @@ textarea:focus-visible {
   gap: 10px;
 }
 
-.submit-btn:disabled {
-  opacity: 0.6;
-  cursor: not-allowed;
-  box-shadow: none;
-  transform: none;
-}
-
 .submit-btn:hover {
   background: #fff;
   transform: translateY(-2px);
   box-shadow: 0 10px 20px rgba(192, 132, 252, 0.3);
-}
-
-.form-status {
-  margin-top: 16px;
-  font-size: 0.95rem;
-  color: #cfc1ef;
-  min-height: 1.2em;
-}
-
-.form-status.is-warning {
-  color: #f4d7ff;
 }
 
 @media (max-width: 900px) {
