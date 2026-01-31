@@ -160,7 +160,7 @@ const translations = {
             achievements: 'Conquistas',
             cases: 'Cases',
             contact: 'Contato',
-            location: 'São Paulo, Brasil',
+            location: 'Bucharest – Romania',
             rights: '© 2026 MALB Events & Consulting. Todos os direitos reservados.',
             rightsShort: '© 2026 MALB Events & Consulting.',
             credits: 'Designed by DestinoConectado'
@@ -337,7 +337,7 @@ const translations = {
             achievements: 'Achievements',
             cases: 'Cases',
             contact: 'Contact',
-            location: 'São Paulo, Brazil',
+            location: 'Bucharest – Romania',
             rights: '© 2026 MALB Events & Consulting. All rights reserved.',
             rightsShort: '© 2026 MALB Events & Consulting.',
             credits: 'Designed by DestinoConectado'
@@ -514,7 +514,7 @@ const translations = {
             achievements: 'Réalisations',
             cases: 'Cas',
             contact: 'Contact',
-            location: 'São Paulo, Brésil',
+            location: 'Bucharest – Romania',
             rights: '© 2026 MALB Events & Consulting. Tous droits réservés.',
             rightsShort: '© 2026 MALB Events & Consulting.',
             credits: 'Designed by DestinoConectado'
@@ -691,7 +691,7 @@ const translations = {
             achievements: 'Logros',
             cases: 'Casos',
             contact: 'Contacto',
-            location: 'São Paulo, Brasil',
+            location: 'Bucharest – Romania',
             rights: '© 2026 MALB Events & Consulting. Todos los derechos reservados.',
             rightsShort: '© 2026 MALB Events & Consulting.',
             credits: 'Designed by DestinoConectado'
@@ -868,7 +868,7 @@ const translations = {
             achievements: 'Realizări',
             cases: 'Studii',
             contact: 'Contact',
-            location: 'São Paulo, Brazilia',
+            location: 'Bucharest – Romania',
             rights: '© 2026 MALB Events & Consulting. Toate drepturile rezervate.',
             rightsShort: '© 2026 MALB Events & Consulting.',
             credits: 'Designed by DestinoConectado'
