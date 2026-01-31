@@ -3,6 +3,18 @@
 <head>
   <meta charset="UTF-8">
   <title>MALB - Events & Consulting</title>
+  <meta name="description" content="Consultoria e produção de eventos que unem estratégia, operação e experiência do público para entregar projetos memoráveis.">
+  <link rel="canonical" href="https://malb.com.br/">
+  <meta property="og:title" content="MALB - Events & Consulting">
+  <meta property="og:description" content="Consultoria e produção de eventos que unem estratégia, operação e experiência do público para entregar projetos memoráveis.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://malb.com.br/">
+  <meta property="og:image" content="https://malb.com.br/img/logonavbar.png">
+  <meta property="og:image:alt" content="Logo da MALB Events & Consulting">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="MALB - Events & Consulting">
+  <meta name="twitter:description" content="Consultoria e produção de eventos que unem estratégia, operação e experiência do público para entregar projetos memoráveis.">
+  <meta name="twitter:image" content="https://malb.com.br/img/logonavbar.png">
   <link rel="stylesheet" href="css/style.css">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
@@ -15,16 +27,17 @@
   <link rel="icon" type="image/png" href="img/faviconmalb.png">
 </head>
 <body>
-  <nav class="navbar">
+  <a class="skip-link" href="#sobre">Pular para o conteúdo</a>
+  <nav class="navbar" aria-label="Navegação principal">
     <a href="#inicio" class="nav-logo">
       <img src="img/logonavbar.png" alt="MALB Logo">
     </a>
-    <button class="nav-toggle" type="button" aria-label="Abrir menu" aria-expanded="false">
+    <button class="nav-toggle" type="button" aria-label="Abrir menu" aria-expanded="false" aria-controls="primary-navigation">
       <span></span>
       <span></span>
       <span></span>
     </button>
-    <ul class="nav-links">
+    <ul class="nav-links" id="primary-navigation">
       <li><a href="quem-somos.html" data-i18n="nav.about">Quem somos</a></li>
       <li><a href="#solucoes" data-i18n="nav.solutions">Soluções</a></li>
       <li><a href="contato.html" class="nav-btn" data-i18n="nav.contact">Contato</a></li>
@@ -39,11 +52,11 @@
         </svg>
       </button>
       <ul class="lang-menu" role="listbox" aria-label="Idioma">
-        <li><button type="button" data-lang="pt" data-label="PT" data-flag="img/flags/br.svg" aria-selected="true"><span>PT</span><img class="lang-flag" src="img/flags/br.svg" alt="Brasil"></button></li>
-        <li><button type="button" data-lang="en" data-label="EN" data-flag="img/flags/us.svg"><span>EN</span><img class="lang-flag" src="img/flags/us.svg" alt="Estados Unidos"></button></li>
-        <li><button type="button" data-lang="fr" data-label="FR" data-flag="img/flags/fr.svg"><span>FR</span><img class="lang-flag" src="img/flags/fr.svg" alt="França"></button></li>
-        <li><button type="button" data-lang="ro" data-label="RO" data-flag="img/flags/ro.svg"><span>RO</span><img class="lang-flag" src="img/flags/ro.svg" alt="Romênia"></button></li>
-        <li><button type="button" data-lang="es" data-label="ES" data-flag="img/flags/es.svg"><span>ES</span><img class="lang-flag" src="img/flags/es.svg" alt="Espanha"></button></li>
+        <li><button type="button" role="option" data-lang="pt" data-label="PT" data-flag="img/flags/br.svg" aria-selected="true"><span>PT</span><img class="lang-flag" src="img/flags/br.svg" alt="Brasil"></button></li>
+        <li><button type="button" role="option" data-lang="en" data-label="EN" data-flag="img/flags/us.svg"><span>EN</span><img class="lang-flag" src="img/flags/us.svg" alt="Estados Unidos"></button></li>
+        <li><button type="button" role="option" data-lang="fr" data-label="FR" data-flag="img/flags/fr.svg"><span>FR</span><img class="lang-flag" src="img/flags/fr.svg" alt="França"></button></li>
+        <li><button type="button" role="option" data-lang="ro" data-label="RO" data-flag="img/flags/ro.svg"><span>RO</span><img class="lang-flag" src="img/flags/ro.svg" alt="Romênia"></button></li>
+        <li><button type="button" role="option" data-lang="es" data-label="ES" data-flag="img/flags/es.svg"><span>ES</span><img class="lang-flag" src="img/flags/es.svg" alt="Espanha"></button></li>
       </ul>
     </div>
   </nav>
@@ -58,9 +71,10 @@
   <header class="hero parallax" id="inicio">
     <div class="overlay"></div>
     <div class="hero-content">
-      <img src="img/logoprincipal.png" class="logo">
+      <h1 class="sr-only">MALB - Events & Consulting</h1>
+      <img src="img/logoprincipal.png" class="logo" alt="MALB Events & Consulting">
     </div>
-    <a href="#sobre" class="scroll-down">
+    <a href="#sobre" class="scroll-down" aria-label="Rolar para a seção Sobre">
       <svg width="40" height="40" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
         <path d="M7 10L12 15L17 10" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
       </svg>
@@ -97,7 +111,7 @@
         </div>
       </div>
     </div>
-    <a href="#solucoes" class="scroll-down">
+    <a href="#solucoes" class="scroll-down" aria-label="Rolar para a seção Soluções">
       <svg width="40" height="40" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
         <path d="M7 10L12 15L17 10" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
       </svg>
@@ -149,7 +163,7 @@
             </div>
           </div>
         </div>
-        <a href="#conquistas" class="scroll-down">
+        <a href="#conquistas" class="scroll-down" aria-label="Rolar para a seção Conquistas">
           <svg width="40" height="30" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M7 10L12 15L17 10" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
           </svg>
@@ -194,7 +208,7 @@
         </div>
       </div>
     </div>
-    <a href="#portifolio" class="scroll-down">
+    <a href="#portifolio" class="scroll-down" aria-label="Rolar para a seção Portfólio">
       <svg width="40" height="40" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
         <path d="M7 10L12 15L17 10" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
       </svg>
@@ -207,11 +221,11 @@
       <p class="portfolio-subtitle" data-i18n="portfolio.subtitle">Explore a trajetória</p>
     </div>
 
-    <button class="nav-arrow prev">
+    <button class="nav-arrow prev" type="button" aria-label="Ver cases anteriores">
       <svg viewBox="0 0 24 24"><path d="M15.41 7.41L14 6l-6 6 6 6 1.41-1.41L10.83 12z"/></svg>
     </button>
     
-    <button class="nav-arrow next">
+    <button class="nav-arrow next" type="button" aria-label="Ver próximos cases">
       <svg viewBox="0 0 24 24"><path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"/></svg>
     </button>
 
@@ -404,9 +418,9 @@ Str. Radu Captariu 15, Sector 2, Bucareste – Romênia</p>
         <p>+55 11 94519-4196</p>
         <p data-i18n="footer.location">São Paulo, Brasil</p>
         <div class="social-icons">
-          <a href="https://www.instagram.com/malbcompany?igsh=MTcxdTE5d2hld3hqNA==" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-instagram"></i></a>
-          <a href="https://www.linkedin.com/in/larissa-coelho-sousa-b42a6b1aa" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-linkedin-in"></i></a>
-          <a href="https://wa.me/5511945194196" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-whatsapp"></i></a>
+          <a href="https://www.instagram.com/malbcompany?igsh=MTcxdTE5d2hld3hqNA==" target="_blank" rel="noopener noreferrer" aria-label="Instagram da MALB"><i class="fa-brands fa-instagram" aria-hidden="true"></i></a>
+          <a href="https://www.linkedin.com/in/larissa-coelho-sousa-b42a6b1aa" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn da MALB"><i class="fa-brands fa-linkedin-in" aria-hidden="true"></i></a>
+          <a href="https://wa.me/5511945194196" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp da MALB"><i class="fa-brands fa-whatsapp" aria-hidden="true"></i></a>
         </div>
       </div>
     </div>
@@ -417,8 +431,8 @@ Str. Radu Captariu 15, Sector 2, Bucareste – Romênia</p>
     </div>
   </footer>
 
-  <script src="js/main.js"></script>
   <script src="https://cdn.jsdelivr.net/gh/studio-freight/lenis@1.0.29/bundled/lenis.min.js"></script>
+  <script src="js/main.js"></script>
 </body>
 </html>
 
