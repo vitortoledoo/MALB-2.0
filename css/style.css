@@ -28,6 +28,11 @@ body {
   cursor: none;
 }
 
+p,
+li {
+  text-align: justify;
+}
+
 a, button {
   cursor: none;
 }
@@ -1144,6 +1149,7 @@ a, button {
   line-height: 1.6;
   font-size: 0.95rem;
   max-width: 300px;
+  white-space: pre-line;
 }
 
 .footer-col h4 {
