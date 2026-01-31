@@ -29,7 +29,7 @@ const translations = {
             p1: 'Nossa jornada começou com uma pergunta simples: por que o mercado entrega apenas o que é pedido, e não o que é necessário? Percebemos que para nos destacar, precisávamos de mais do que logística. Precisávamos de <strong>inteligência</strong>.',
             highlight: "Entender o negócio. Sentir a marca. Saber o 'como' e o 'porquê'.",
             p2: 'Decidimos que não trabalharíamos para o portfólio, mas para o parceiro. Tomamos o poder desse conhecimento estratégico e o colocamos à prova. O resultado? Experiências que não apenas acontecem, mas marcam.',
-            p3: 'Seja local ou globalmente, a MALB* assume o peso da execução para que você foque no sucesso.<br><br><span class="signature">Conhecimento é impacto.</span>',
+            p3: 'Seja local ou globalmente, a MALB* assume o peso da execução para que você foque no sucesso. <span class="signature">Conhecimento é impacto.</span>',
             caption: 'Larissa Coelho Founder & Head de Produção MALB'
         },
         solutions: {
@@ -148,7 +148,7 @@ const translations = {
         },
         cta: {
             title: 'Pronto para elevar o nível?',
-            subtitle: 'Vamos transformar sua próxima ideia em uma experiência inesquecível. A estratégia certa começa aqui.',
+            subtitle: 'Vamos transformar sua próxima ideia em uma experiência inesquecível.',
             button: 'Começar Projeto'
         },
         footer: {
@@ -177,7 +177,7 @@ const translations = {
                 kicker: 'Liderança',
                 title: 'Quem é Larissa Coelho<br>',
                 role: 'Head da MALB*',
-                p1: 'Larissa é uma profissonal especialista em Operações de Eventos de grande, médio e pequeno porte, Experiência do Cliente e Gestão de Projetos, com mais de 5 anos de experiência liderando projetos de grande escala que combinam criatividade, estrutura e precisão.',
+                p1: 'Larissa é uma profissional especialista em Operações de Eventos de grande, médio e pequeno porte, Experiência do Cliente e Gestão de Projetos, com mais de 5 anos de experiência liderando projetos de grande escala que combinam criatividade, estrutura e precisão.',
                 p2: 'Ao longo de sua trajetória, coordenou produções nacionais e internacionais de alta complexidade, incluindo o FIA WEC – Rolex 6 Horas de São Paulo, o Stock Car Championship, o BH Stock Festival e o premiado Festival Mr Moo – Edição Especial de 10 Anos, que conquistou um recorde mundial do Guinness em 2025.',
                 p3: 'Seu trabalho integra planejamento estratégico, gestão financeira e design de serviços, com foco na construção de jornadas consistentes, eficientes e centradas no público, garantindo que cada projeto entregue não apenas resultados operacionais, mas também experiências memoráveis e alinhadas ao propósito das marcas.',
                 quote: '"Sou apaixonada por transformar operações complexas em experiências fluidas e centradas nas pessoas, que conectam marcas, equipes e públicos."',
@@ -185,7 +185,7 @@ const translations = {
             }
         },
         contact: {
-            title: 'Tem um projeto em mente ? <br><span class="highlight">conte para gente!</span>',
+            title: 'Tem um projeto em mente?<br><span class="highlight">Conte para a gente!</span>',
             desc: 'Grandes experiências começam com uma boa estratégia. O seu desafio é o nosso trabalho.',
             emailLabel: 'Fale com a gente',
             locationLabel: 'Base',
@@ -206,7 +206,7 @@ const translations = {
             p1: 'Our journey started with a simple question: why does the market deliver only what is asked for, and not what is needed? We realized that to stand out, we needed more than logistics. We needed <strong>intelligence</strong>.',
             highlight: "Understand the business. Feel the brand. Know the 'how' and the 'why'.",
             p2: 'We decided we would not work for the portfolio, but for the partner. We took the power of this strategic knowledge and put it to the test. The result? Experiences that don’t just happen, they leave a mark.',
-            p3: 'Locally or globally, MALB* carries the execution so you can focus on success.<br><br><span class="signature">Knowledge is impact.</span>',
+            p3: 'Locally or globally, MALB* carries the execution so you can focus on success. <span class="signature">Knowledge is impact.</span>',
             caption: 'Larissa Coelho Founder & Head of Production MALB'
         },
         solutions: {
@@ -325,7 +325,7 @@ const translations = {
         },
         cta: {
             title: 'Ready to raise the bar?',
-            subtitle: 'Let’s turn your next idea into an unforgettable experience. The right strategy starts here.',
+            subtitle: 'Let’s turn your next idea into an unforgettable experience.',
             button: 'Start a Project'
         },
         footer: {
@@ -362,7 +362,7 @@ const translations = {
             }
         },
         contact: {
-            title: 'Have a project in mind? <br><span class="highlight">Tell us about it!</span>',
+            title: 'Have a project in mind?<br><span class="highlight">Tell us about it!</span>',
             desc: 'Great experiences start with a good strategy. Your challenge is our work.',
             emailLabel: 'Talk to us',
             locationLabel: 'Based in',
@@ -383,7 +383,7 @@ const translations = {
             p1: 'Notre parcours a commencé par une question simple : pourquoi le marché ne livre-t-il que ce qui est demandé, et non ce qui est nécessaire ? Nous avons compris que pour nous démarquer, il nous fallait plus que la logistique. Nous avions besoin d’<strong>intelligence</strong>.',
             highlight: "Comprendre l’entreprise. Ressentir la marque. Connaître le 'comment' et le 'pourquoi'.",
             p2: 'Nous avons décidé de ne pas travailler pour le portfolio, mais pour le partenaire. Nous avons mis à l’épreuve ce savoir stratégique. Le résultat ? Des expériences qui ne font pas que se produire, elles marquent.',
-            p3: 'Localement ou globalement, MALB* porte l’exécution pour que vous puissiez vous concentrer sur le succès.<br><br><span class="signature">Le savoir est un impact.</span>',
+            p3: 'Localement ou globalement, MALB* porte l’exécution pour que vous puissiez vous concentrer sur le succès. <span class="signature">Le savoir est un impact.</span>',
             caption: 'Larissa Coelho Fondatrice & Head de Production MALB'
         },
         solutions: {
@@ -439,7 +439,7 @@ const translations = {
             },
             juntos: {
                 role: 'Chef de Projet Engagement',
-                desc: 'Expérience корпоративative interne sur le circuit, développée avec le département RH pour renforcer la culture et l’engagement organisationnel. Planification et coordination du projet, connectant les collaborateurs aux coulisses de la production et des opérations du motorsport, avec une livraison à fort impact, alignée et fluide.',
+                desc: 'Expérience d’entreprise interne sur le circuit, développée avec le département RH pour renforcer la culture et l’engagement organisationnel. Planification et coordination du projet, connectant les collaborateurs aux coulisses de la production et des opérations du motorsport, avec une livraison à fort impact, alignée et fluide.',
                 hl1: 'Co-création du concept avec le RH',
                 hl2: 'Planification logistique et gestion des invités',
                 hl3: 'Coordination de l’exécution on-site',
@@ -487,7 +487,7 @@ const translations = {
                 infrastructure: 'Infrastructure',
                 integration: 'Intégration',
                 planning: 'Planification',
-                corporate: 'Événements корпоративatifs',
+                corporate: 'Événements d’entreprise',
                 internal: 'Communication interne',
                 engagement: 'Engagement',
                 vip: 'VIP/Corporate',
@@ -502,7 +502,7 @@ const translations = {
         },
         cta: {
             title: 'Prêt à élever le niveau ?',
-            subtitle: 'Transformons votre prochaine idée en une expérience inoubliable. La bonne stratégie commence ici.',
+            subtitle: 'Transformons votre prochaine idée en une expérience inoubliable.',
             button: 'Démarrer un projet'
         },
         footer: {
@@ -523,7 +523,7 @@ const translations = {
             kicker: 'Institutionnel',
             title: 'Qui sommes-nous.',
             p1: 'Nous sommes un cabinet de conseil en événements spécialisé en opérations, logistique, gestion de projet et expérience du public, avec une approche de bout en bout — de la planification stratégique à l’exécution terrain.',
-            p2: 'Nous réunissons un leadership expérimenté et une vision pratique, construits à partir d’une solide expérience de projets de grande échelle au Brésil, en Argentine et en Uruguay, avec une forte présence en motorsport, hospitalité premium et événements корпоративatifs stratégiques. Nous agissons comme point de convergence entre équipes internes, fournisseurs, sponsors et organisation de l’événement, garantissant alignement du calendrier, clarté des flux, sécurité et expériences cohérentes du début à la fin.',
+            p2: 'Nous réunissons un leadership expérimenté et une vision pratique, construits à partir d’une solide expérience de projets de grande échelle au Brésil, en Argentine et en Uruguay, avec une forte présence en motorsport, hospitalité premium et événements d’entreprise stratégiques. Nous agissons comme point de convergence entre équipes internes, fournisseurs, sponsors et organisation de l’événement, garantissant alignement du calendrier, clarté des flux, sécurité et expériences cohérentes du début à la fin.',
             p3: 'Notre action va au-delà de l’exécution : nous dessinons des parcours d’expérience, structurons les processus et soutenons les décisions stratégiques, en veillant à ce que chaque interaction — de l’accès du public à l’hospitalité VIP — soit fluide, cohérente et alignée aux objectifs du projet et des marques impliquées.',
             p4: 'Notre différence réside dans le leadership en environnements complexes. Nous transformons les défis opérationnels en livraisons bien orchestrées grâce à une planification structurée, une communication précise, une vision du risque et un rythme de piste. Cela nous permet de livrer avec excellence des événements nationaux et internationaux réunissant des dizaines de milliers de personnes, ainsi que des expériences exclusives pour C-levels, activations de marque et projets multi-stakeholders à forte visibilité.',
             p5: 'Complexité organisée. Expériences bien livrées. Leadership sur le terrain.',
@@ -539,7 +539,7 @@ const translations = {
             }
         },
         contact: {
-            title: 'Un projet en tête ? <br><span class="highlight">Parlez-nous-en !</span>',
+            title: 'Un projet en tête?<br><span class="highlight">Parlez-nous-en !</span>',
             desc: 'Les grandes expériences commencent par une bonne stratégie. Votre défi est notre travail.',
             emailLabel: 'Parlez avec nous',
             locationLabel: 'Base',
@@ -560,7 +560,7 @@ const translations = {
             p1: 'Nuestro recorrido comenzó con una pregunta simple: ¿por qué el mercado entrega solo lo que se pide y no lo que se necesita? Nos dimos cuenta de que, para destacar, necesitábamos más que logística. Necesitábamos <strong>inteligencia</strong>.',
             highlight: "Entender el negocio. Sentir la marca. Saber el 'cómo' y el 'por qué'.",
             p2: 'Decidimos que no trabajaríamos para el portafolio, sino para el socio. Tomamos el poder de ese conocimiento estratégico y lo pusimos a prueba. ¿El resultado? Experiencias que no solo suceden, sino que marcan.',
-            p3: 'Sea a nivel local o global, MALB* asume el peso de la ejecución para que tú te enfoques en el éxito.<br><br><span class="signature">El conocimiento es impacto.</span>',
+            p3: 'Sea a nivel local o global, MALB* asume el peso de la ejecución para que tú te enfoques en el éxito. <span class="signature">El conocimiento es impacto.</span>',
             caption: 'Larissa Coelho Founder & Head de Producción MALB'
         },
         solutions: {
@@ -679,7 +679,7 @@ const translations = {
         },
         cta: {
             title: '¿Listos para elevar el nivel?',
-            subtitle: 'Transformemos tu próxima idea en una experiencia inolvidable. La estrategia correcta comienza aquí.',
+            subtitle: 'Transformemos tu próxima idea en una experiencia inolvidable.',
             button: 'Iniciar proyecto'
         },
         footer: {
@@ -716,7 +716,7 @@ const translations = {
             }
         },
         contact: {
-            title: '¿Tienes un proyecto en mente? <br><span class="highlight">¡Cuéntanos!</span>',
+            title: '¿Tienes un proyecto en mente?<br><span class="highlight">¡Cuéntanos!</span>',
             desc: 'Las grandes experiencias comienzan con una buena estrategia. Tu desafío es nuestro trabajo.',
             emailLabel: 'Habla con nosotros',
             locationLabel: 'Base',
@@ -737,7 +737,7 @@ const translations = {
             p1: 'Călătoria noastră a început cu o întrebare simplă: de ce piața livrează doar ceea ce se cere și nu ceea ce este necesar? Am realizat că, pentru a ne evidenția, aveam nevoie de mai mult decât logistică. Aveam nevoie de <strong>inteligență</strong>.',
             highlight: "Înțelege afacerea. Simte brandul. Cunoaște 'cum' și 'de ce'.",
             p2: 'Am decis să nu lucrăm pentru portofoliu, ci pentru partener. Am pus la încercare această cunoaștere strategică. Rezultatul? Experiențe care nu doar se întâmplă, ci lasă urme.',
-            p3: 'Local sau global, MALB* preia execuția ca tu să te concentrezi pe succes.<br><br><span class="signature">Cunoașterea înseamnă impact.</span>',
+            p3: 'Local sau global, MALB* preia execuția ca tu să te concentrezi pe succes. <span class="signature">Cunoașterea înseamnă impact.</span>',
             caption: 'Larissa Coelho Fondatoare & Head de Producție MALB'
         },
         solutions: {
@@ -856,7 +856,7 @@ const translations = {
         },
         cta: {
             title: 'Gata să ridicăm nivelul?',
-            subtitle: 'Hai să transformăm următoarea ta idee într-o experiență de neuitat. Strategia potrivită începe aici.',
+            subtitle: 'Hai să transformăm următoarea ta idee într-o experiență de neuitat.',
             button: 'Începe proiectul'
         },
         footer: {
@@ -893,7 +893,7 @@ const translations = {
             }
         },
         contact: {
-            title: 'Ai un proiect în minte? <br><span class="highlight">Spune-ne!</span>',
+            title: 'Ai un proiect în minte?<br><span class="highlight">Spune-ne!</span>',
             desc: 'Experiențele mari încep cu o strategie bună. Provocarea ta este munca noastră.',
             emailLabel: 'Vorbește cu noi',
             locationLabel: 'Sediu',
@@ -1116,11 +1116,39 @@ const prevBtn = document.querySelector('.nav-arrow.prev');
 const nextBtn = document.querySelector('.nav-arrow.next');
 
 if (prevBtn && nextBtn && slider) {
-    const scrollAmount = 480; 
+    const getCards = () => Array.from(slider.querySelectorAll('.portfolio-card'));
+    const getClosestIndex = () => {
+        const cards = getCards();
+        const currentLeft = slider.scrollLeft;
+        let closestIndex = 0;
+        let closestDistance = Number.POSITIVE_INFINITY;
+
+        cards.forEach((card, index) => {
+            const distance = Math.abs(card.offsetLeft - currentLeft);
+            if (distance < closestDistance) {
+                closestDistance = distance;
+                closestIndex = index;
+            }
+        });
+
+        return closestIndex;
+    };
+
+    const scrollToIndex = (index) => {
+        const cards = getCards();
+        if (!cards.length) {
+            return;
+        }
+        const clampedIndex = Math.max(0, Math.min(index, cards.length - 1));
+        slider.scrollTo({ left: cards[clampedIndex].offsetLeft, behavior: 'smooth' });
+    };
+
     nextBtn.addEventListener('click', () => {
-        slider.scrollBy({ left: scrollAmount, behavior: 'smooth' });
+        const currentIndex = getClosestIndex();
+        scrollToIndex(currentIndex + 1);
     });
     prevBtn.addEventListener('click', () => {
-        slider.scrollBy({ left: -scrollAmount, behavior: 'smooth' });
+        const currentIndex = getClosestIndex();
+        scrollToIndex(currentIndex - 1);
     });
 }
