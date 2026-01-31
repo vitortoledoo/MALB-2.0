@@ -2,7 +2,19 @@
 <html lang="pt-BR">
 <head>
   <meta charset="UTF-8" />
-  <title>Quem Somos</title>
+  <title>Quem Somos - MALB</title>
+  <meta name="description" content="Conheça a MALB: consultoria de eventos com liderança em operações, logística, projetos e experiência do público.">
+  <link rel="canonical" href="https://malb.com.br/quem-somos.html">
+  <meta property="og:title" content="Quem Somos - MALB">
+  <meta property="og:description" content="Conheça a MALB: consultoria de eventos com liderança em operações, logística, projetos e experiência do público.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://malb.com.br/quem-somos.html">
+  <meta property="og:image" content="https://malb.com.br/img/logonavbar.png">
+  <meta property="og:image:alt" content="Logo da MALB Events & Consulting">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Quem Somos - MALB">
+  <meta name="twitter:description" content="Conheça a MALB: consultoria de eventos com liderança em operações, logística, projetos e experiência do público.">
+  <meta name="twitter:image" content="https://malb.com.br/img/logonavbar.png">
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="stylesheet" href="css/style.css" />
   <link href="https://fonts.googleapis.com/css2?family=Barrio&display=swap" rel="stylesheet">
@@ -14,17 +26,17 @@
 </head>
 
 <body class="navbar-always page-quem-somos">
-  
-  <nav class="navbar">
+  <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+  <nav class="navbar" aria-label="Navegação principal">
     <a href="index.html#inicio" class="nav-logo">
       <img src="img/logonavbar.png" alt="MALB Logo">
     </a>
-    <button class="nav-toggle" type="button" aria-label="Abrir menu" aria-expanded="false">
+    <button class="nav-toggle" type="button" aria-label="Abrir menu" aria-expanded="false" aria-controls="primary-navigation">
       <span></span>
       <span></span>
       <span></span>
     </button>
-    <ul class="nav-links">
+    <ul class="nav-links" id="primary-navigation">
       <li><a href="quem-somos.html" data-i18n="nav.about">Quem somos</a></li>
       <li><a href="index.html#solucoes" data-i18n="nav.solutions">Soluções</a></li>
       <li><a href="contato.html" class="nav-btn" data-i18n="nav.contact">Contato</a></li>
@@ -39,11 +51,11 @@
         </svg>
       </button>
       <ul class="lang-menu" role="listbox" aria-label="Idioma">
-        <li><button type="button" data-lang="pt" data-label="PT" data-flag="img/flags/br.svg" aria-selected="true"><span>PT</span><img class="lang-flag" src="img/flags/br.svg" alt="Brasil"></button></li>
-        <li><button type="button" data-lang="en" data-label="EN" data-flag="img/flags/us.svg"><span>EN</span><img class="lang-flag" src="img/flags/us.svg" alt="Estados Unidos"></button></li>
-        <li><button type="button" data-lang="fr" data-label="FR" data-flag="img/flags/fr.svg"><span>FR</span><img class="lang-flag" src="img/flags/fr.svg" alt="França"></button></li>
-        <li><button type="button" data-lang="ro" data-label="RO" data-flag="img/flags/ro.svg"><span>RO</span><img class="lang-flag" src="img/flags/ro.svg" alt="Romênia"></button></li>
-        <li><button type="button" data-lang="es" data-label="ES" data-flag="img/flags/es.svg"><span>ES</span><img class="lang-flag" src="img/flags/es.svg" alt="Espanha"></button></li>
+        <li><button type="button" role="option" data-lang="pt" data-label="PT" data-flag="img/flags/br.svg" aria-selected="true"><span>PT</span><img class="lang-flag" src="img/flags/br.svg" alt="Brasil"></button></li>
+        <li><button type="button" role="option" data-lang="en" data-label="EN" data-flag="img/flags/us.svg"><span>EN</span><img class="lang-flag" src="img/flags/us.svg" alt="Estados Unidos"></button></li>
+        <li><button type="button" role="option" data-lang="fr" data-label="FR" data-flag="img/flags/fr.svg"><span>FR</span><img class="lang-flag" src="img/flags/fr.svg" alt="França"></button></li>
+        <li><button type="button" role="option" data-lang="ro" data-label="RO" data-flag="img/flags/ro.svg"><span>RO</span><img class="lang-flag" src="img/flags/ro.svg" alt="Romênia"></button></li>
+        <li><button type="button" role="option" data-lang="es" data-label="ES" data-flag="img/flags/es.svg"><span>ES</span><img class="lang-flag" src="img/flags/es.svg" alt="Espanha"></button></li>
       </ul>
     </div>
   </nav>
@@ -52,7 +64,7 @@
   <div class="cursor-outline"></div>
   <div class="qs-bg" aria-hidden="true"></div>
 
-  <main class="institutional-page">
+  <main class="institutional-page" id="conteudo">
     <header class="page-header">
       <p class="page-kicker" data-i18n="aboutPage.kicker">Institucional</p>
       <h1 class="page-title" data-i18n="aboutPage.title">Quem somos.</h1>
@@ -78,7 +90,7 @@
         </div>
 
         <div class="leader-content">
-          <p data-i18n="aboutPage.leader.p1">Larissa é uma profissonal especialista em Operações de Eventos de grande, médio e pequeno porte, Experiência do Cliente e Gestão de Projetos, com mais de 5 anos de experiência liderando projetos de grande escala que combinam criatividade, estrutura e precisão.</p>
+          <p data-i18n="aboutPage.leader.p1">Larissa é uma profissional especialista em Operações de Eventos de grande, médio e pequeno porte, Experiência do Cliente e Gestão de Projetos, com mais de 5 anos de experiência liderando projetos de grande escala que combinam criatividade, estrutura e precisão.</p>
           <p data-i18n="aboutPage.leader.p2">Ao longo de sua trajetória, coordenou produções nacionais e internacionais de alta complexidade, incluindo o FIA WEC – Rolex 6 Horas de São Paulo, o Stock Car Championship, o BH Stock Festival e o premiado Festival Mr Moo – Edição Especial de 10 Anos, que conquistou um recorde mundial do Guinness em 2025.</p>
           <p data-i18n="aboutPage.leader.p3">Seu trabalho integra planejamento estratégico, gestão financeira e design de serviços, com foco na construção de jornadas consistentes, eficientes e centradas no público, garantindo que cada projeto entregue não apenas resultados operacionais, mas também experiências memoráveis e alinhadas ao propósito das marcas.</p> 
           <p data-i18n="aboutPage.leader.quote">"Sou apaixonada por transformar operações complexas em experiências fluidas e centradas nas pessoas, que conectam marcas, equipes e públicos."</p>
@@ -115,9 +127,9 @@ Str. Radu Captariu 15, Sector 2, Bucareste – Romênia</p>
         <p>contato@malb.com.br</p>
         <p data-i18n="footer.location">São Paulo, Brasil</p>
         <div class="social-icons">
-          <a href="https://www.instagram.com/malbcompany?igsh=MTcxdTE5d2hld3hqNA==" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-instagram"></i></a>
-          <a href="https://www.linkedin.com/in/larissa-coelho-sousa-b42a6b1aa" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-linkedin-in"></i></a>
-          <a href="https://wa.me/5511945194196" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-whatsapp"></i></a>
+          <a href="https://www.instagram.com/malbcompany?igsh=MTcxdTE5d2hld3hqNA==" target="_blank" rel="noopener noreferrer" aria-label="Instagram da MALB"><i class="fa-brands fa-instagram" aria-hidden="true"></i></a>
+          <a href="https://www.linkedin.com/in/larissa-coelho-sousa-b42a6b1aa" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn da MALB"><i class="fa-brands fa-linkedin-in" aria-hidden="true"></i></a>
+          <a href="https://wa.me/5511945194196" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp da MALB"><i class="fa-brands fa-whatsapp" aria-hidden="true"></i></a>
         </div>
       </div>
     </div>
