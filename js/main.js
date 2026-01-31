@@ -89,6 +89,15 @@ const translations = {
                 hl3: 'Transporte, travel e operação de pista',
                 hl4: 'Execução reconhecida por sincronização'
             },
+            siasp: {
+                role: 'Project Manager.',
+                desc: 'Atuação como Gerente de Projeto no estande FIA WEC Rolex 6 horas de São Paulo, com responsabilidade integral pelo planejamento e execução de um dos estandes mais visitados do evento. Escopo abrangendo desde a concepção do estande, cenografia e operação diária até a coordenação de equipes, parceiros e fluxos de atendimento ao público ao longo de 10 dias de evento de grande sucesso.',
+                hl1: 'Planejamento estratégico e execução do projeto do estande',
+                hl2: 'Gestão da operação diária, logística e fluxos de público',
+                hl3: 'Coordenação de cenografia, fornecedores e parceiros',
+                hl4: 'Comunicação contínua com a equipe do projeto e stakeholders',
+                hl5: 'Elaboração de briefing, escalação e liderança de equipes on-site'
+            },
             tags: {
                 operations: 'Operações',
                 cx: 'CX',
@@ -114,7 +123,9 @@ const translations = {
                 activation: 'Ativação',
                 intCoord: 'Coordenação Int.',
                 motorsport: 'Motorsport',
-                pressure: 'Pressão'
+                pressure: 'Pressão',
+                garantia: 'Garantia de consistência de marca',
+                cenografia: 'Cenografia para a marca'
             }
         },
         cta: {
@@ -123,8 +134,8 @@ const translations = {
             button: 'Começar Projeto'
         },
         footer: {
-            desc: 'Desenhamos experiências que constroem marcas. Da estratégia à execução.',
-            descLong: 'Desenhamos experiências que constroem marcas. Da estratégia à execução impecável.',
+            desc: 'MALB. Events & Consulting\nMALB Consulting & Events S.R.L. · CUI 52796517 · Reg. Comercial J2025082905007\nStr. Radu Captariu 15, Sector 2, Bucareste – Romênia',
+            descLong: 'MALB. Events & Consulting\nMALB Consulting & Events S.R.L. · CUI 52796517 · Reg. Comercial J2025082905007\nStr. Radu Captariu 15, Sector 2, Bucareste – Romênia',
             explore: 'Explorar',
             about: 'Quem Somos',
             solutions: 'Soluções',
@@ -162,7 +173,7 @@ const translations = {
             nameLabel: 'Seu Nome',
             emailField: 'E-mail',
             messageLabel: 'Sobre o projeto...',
-            submit: 'Enviar Proposta',
+            submit: 'Enviar sua ideia',
             namePlaceholder: ' ',
             emailPlaceholder: ' ',
             messagePlaceholder: ' '
@@ -254,6 +265,15 @@ const translations = {
                 hl3: 'Transport, travel, and track operations',
                 hl4: 'Execution recognized for synchronization'
             },
+            siasp: {
+                role: 'Project Manager.',
+                desc: 'Project Manager for the FIA WEC Rolex 6 Hours of São Paulo booth, responsible for full planning and execution of one of the most visited stands. Scope included concept, scenography, daily operations, and the coordination of teams, partners, and public service flows across 10 successful event days.',
+                hl1: 'Strategic planning and execution of the stand project',
+                hl2: 'Daily operations management, logistics, and public flow',
+                hl3: 'Scenography, vendors, and partner coordination',
+                hl4: 'Continuous communication with the project team and stakeholders',
+                hl5: 'Briefing development, staffing, and on-site leadership'
+            },
             tags: {
                 operations: 'Operations',
                 cx: 'CX',
@@ -279,7 +299,9 @@ const translations = {
                 activation: 'Activation',
                 intCoord: 'Int. Coordination',
                 motorsport: 'Motorsport',
-                pressure: 'Pressure'
+                pressure: 'Pressure',
+                garantia: 'Brand consistency assurance',
+                cenografia: 'Brand scenography'
             }
         },
         cta: {
@@ -288,8 +310,8 @@ const translations = {
             button: 'Start a Project'
         },
         footer: {
-            desc: 'We design experiences that build brands. From strategy to execution.',
-            descLong: 'We design experiences that build brands. From strategy to flawless execution.',
+            desc: 'MALB. Events & Consulting\nMALB Consulting & Events S.R.L. · CUI 52796517 · Reg. Comercial J2025082905007\nStr. Radu Captariu 15, Sector 2, Bucharest – Romania',
+            descLong: 'MALB. Events & Consulting\nMALB Consulting & Events S.R.L. · CUI 52796517 · Reg. Comercial J2025082905007\nStr. Radu Captariu 15, Sector 2, Bucharest – Romania',
             explore: 'Explore',
             about: 'About',
             solutions: 'Solutions',
@@ -327,7 +349,7 @@ const translations = {
             nameLabel: 'Your name',
             emailField: 'Email',
             messageLabel: 'About the project...',
-            submit: 'Send Proposal',
+            submit: 'Send your idea',
             namePlaceholder: ' ',
             emailPlaceholder: ' ',
             messagePlaceholder: ' '
@@ -419,6 +441,15 @@ const translations = {
                 hl3: 'Transport, travel et opérations piste',
                 hl4: 'Exécution reconnue pour la synchronisation'
             },
+            siasp: {
+                role: 'Chef de Projet.',
+                desc: 'Gestion de projet pour le stand FIA WEC Rolex 6 Heures de São Paulo, avec responsabilité complète du planning et de l’exécution d’un des stands les plus visités. Scope couvrant le concept, la scénographie, l’opération quotidienne et la coordination des équipes, partenaires et flux publics sur 10 jours de succès.',
+                hl1: 'Planification stratégique et exécution du stand',
+                hl2: 'Gestion opérationnelle quotidienne, logistique et flux public',
+                hl3: 'Coordination de la scénographie, fournisseurs et partenaires',
+                hl4: 'Communication continue avec l’équipe projet et les parties prenantes',
+                hl5: 'Briefing, staffing et leadership on-site'
+            },
             tags: {
                 operations: 'Opérations',
                 cx: 'CX',
@@ -444,7 +475,9 @@ const translations = {
                 activation: 'Activation',
                 intCoord: 'Coord. Int.',
                 motorsport: 'Motorsport',
-                pressure: 'Pression'
+                pressure: 'Pression',
+                garantia: 'Garantie de cohérence de marque',
+                cenografia: 'Scénographie pour la marque'
             }
         },
         cta: {
@@ -453,8 +486,8 @@ const translations = {
             button: 'Démarrer un projet'
         },
         footer: {
-            desc: 'Nous concevons des expériences qui construisent des marques. De la stratégie à l’exécution.',
-            descLong: 'Nous concevons des expériences qui construisent des marques. De la stratégie à l’exécution impeccable.',
+            desc: 'MALB. Events & Consulting\nMALB Consulting & Events S.R.L. · CUI 52796517 · Reg. Comercial J2025082905007\nStr. Radu Captariu 15, Sector 2, Bucarest – Roumanie',
+            descLong: 'MALB. Events & Consulting\nMALB Consulting & Events S.R.L. · CUI 52796517 · Reg. Comercial J2025082905007\nStr. Radu Captariu 15, Sector 2, Bucarest – Roumanie',
             explore: 'Explorer',
             about: 'Qui sommes-nous',
             solutions: 'Solutions',
@@ -492,7 +525,183 @@ const translations = {
             nameLabel: 'Votre nom',
             emailField: 'E-mail',
             messageLabel: 'À propos du projet...',
-            submit: 'Envoyer la proposition',
+            submit: 'Envoyez votre idée',
+            namePlaceholder: ' ',
+            emailPlaceholder: ' ',
+            messagePlaceholder: ' '
+        }
+    },
+    es: {
+        nav: { about: 'Quiénes somos', solutions: 'Soluciones', contact: 'Contacto', language: 'Idioma' },
+        about: {
+            title: 'Rompemos el patrón...<br><span class="highlight">...para elevar el nivel.</span>',
+            p1: 'Nuestro recorrido comenzó con una pregunta simple: ¿por qué el mercado entrega solo lo que se pide y no lo que se necesita? Nos dimos cuenta de que, para destacar, necesitábamos más que logística. Necesitábamos <strong>inteligencia</strong>.',
+            highlight: "Entender el negocio. Sentir la marca. Saber el 'cómo' y el 'por qué'.",
+            p2: 'Decidimos que no trabajaríamos para el portafolio, sino para el socio. Tomamos el poder de ese conocimiento estratégico y lo pusimos a prueba. ¿El resultado? Experiencias que no solo suceden, sino que marcan.',
+            p3: 'Sea a nivel local o global, MALB* asume el peso de la ejecución para que tú te enfoques en el éxito.<br><br><span class="signature">El conocimiento es impacto.</span>',
+            caption: 'Larissa Coelho Founder & Head de Producción MALB'
+        },
+        solutions: {
+            title: '<span class="highlight">Soluciones</span>',
+            card1: { title: 'Estrategia y Gestión Operativa', desc: 'Del concepto a la ejecución para eventos de todos los tipos.' },
+            card2: { title: 'Customer Experience', desc: 'Creamos recorridos de servicio que fortalecen la satisfacción y la fidelidad.' },
+            card3: { title: 'Optimización de Procesos y Flujos', desc: 'Creación de sistemas operativos que mejoran la eficiencia y la responsabilidad.' },
+            card4: { title: 'Gestión de Proyectos y Control Financiero', desc: 'Planificación de recursos, presupuestos e informes entre áreas.' },
+            card5: { title: 'Liderazgo Interfuncional', desc: 'Coordinación de stakeholders integrando marketing, logística, finanzas y producción.' }
+        },
+        achievements: {
+            title: '<span class="highlight">Logros</span>',
+            card1: { title: 'Récord Mundial Guinness', desc: 'Como Productora Ejecutiva, lideró el Festival Mr Moo (Edición 10 Años), obteniendo el reconocimiento oficial como el Mayor Festival de Barbacoa del Mundo, con más de 700 profesionales coordinados.' },
+            card2: { title: 'Liderazgo a Gran Escala', desc: 'Gestionó con éxito más de 30 eventos nacionales de automovilismo, con más de 80.000 participantes, garantizando logística y hospitalidad impecables.' },
+            card3: { title: 'Innovación Operativa', desc: 'Pionera en la autenticación digital por reconocimiento facial, eliminando plásticos, reduciendo costos y estableciendo un nuevo estándar de sostenibilidad.' },
+            card4: { title: 'Transformación de Sistemas', desc: 'Implementó sistemas integrados de ticketing y finanzas, mejorando la visibilidad de datos y acelerando decisiones estratégicas.' },
+            card5: { title: 'Eficiencia Organizacional', desc: 'Impulsó un aumento del 30% en la eficiencia del flujo de trabajo mediante la reformulación de procesos y herramientas de coordinación en tiempo real.' },
+            card6: { title: 'Esto es MALB' }
+        },
+        portfolio: {
+            title: 'Casos de <span class="highlight">éxito</span>',
+            subtitle: 'Explora la trayectoria',
+            stock: {
+                role: 'Sr Producer & Coord. Operaciones',
+                desc: 'A lo largo de cuatro años, evolucioné del soporte administrativo/financiero al liderazgo de operaciones nacionales en Stock Car, coordinando logística, hospitalidad y customer experience en proyectos de gran escala en Brasil. Planifiqué y entregué más de 30 eventos de motorsport, garantizando excelencia operativa, integración entre áreas y consistencia en la experiencia del público.',
+                hl1: 'Planificación y ejecución de logística a gran escala',
+                hl2: 'Desarrollo de procesos de ticketing',
+                hl3: 'Gestión de crisis y service recovery',
+                hl4: 'Estandarización de atención al público'
+            },
+            mrmoo: {
+                role: 'Executive Producer (Guinness Project)',
+                desc: 'Actuación como Executive Producer en un proyecto de alta complejidad que culminó en el Guinness World Record (Mayor Festival de Barbacoa del Mundo).',
+                hl1: 'Planificación operativa de alto impacto',
+                hl2: 'Gestión de equipos multidisciplinarios',
+                hl3: 'Ejecución Guinness World Record',
+                hl4: 'Fortalecimiento de presencia de marca'
+            },
+            wec: {
+                role: 'Coordinación General y Estratégica',
+                desc: 'Coordiné la operación del WEC en São Paulo, alineando equipos locales e internacionales, supervisando activaciones de socios, hospitalidad y logística, con foco en conformidad FIA/ACO. La edición 2025 recibió 80.000+ personas, y continúo liderando la planificación de la edición 2026.',
+                hl1: 'Producción internacional (80k+ pax)',
+                hl2: 'Gestión de stakeholders (FIA/ACO/Sponsors)',
+                hl3: 'Supervisión de hospitalidad y VIP',
+                hl4: 'Garantía de conformidad y seguridad'
+            },
+            bh: {
+                role: 'Project Manager Operaciones',
+                desc: 'Evento en el Mineirão que unió motorsport, música y entretenimiento en una producción multi-experiencia. Como PM, aseguré el alineamiento entre Stock Car y el equipo del festival, coordinando operaciones, timelines e infraestructura.',
+                hl1: 'Integración de equipos y gobernanza',
+                hl2: 'Logística compleja en estadio',
+                hl3: 'Consistencia de experiencia a gran escala',
+                hl4: 'Gestión de acreditación e infraestructura'
+            },
+            juntos: {
+                role: 'Project Manager Engagement',
+                desc: 'Experiencia corporativa interna en el autódromo, creada con RH para fortalecer cultura y compromiso. Lideré la planificación y ejecución operacional conectando colaboradores con la producción de motorsport.',
+                hl1: 'Co-creación de concepto con RH',
+                hl2: 'Logística y gestión de invitados',
+                hl3: 'Ejecución completa on-site',
+                hl4: 'Fortalecimiento del propósito de la empresa'
+            },
+            ctio: {
+                role: 'Project Manager Coordinación VIP',
+                desc: 'Evento premium para la división de tecnología, reuniendo CTIOs y líderes en un día exclusivo con networking y experiencias en el autódromo. Conduje la planificación operativa, logística VIP y coordinación de socios.',
+                hl1: 'Hospitalidad premium y guest relations',
+                hl2: 'Formato integrado: Tech + Motorsport',
+                hl3: 'Producción de alto nivel',
+                hl4: 'Enfoque en relacionamiento y adquisición'
+            },
+            f4: {
+                role: 'Project Manager Ecosistema F1',
+                desc: 'Por dos años consecutivos, coordiné la Fórmula 4 Brasil dentro del ecosistema del GP de F1 en São Paulo, actuando como puente operativo entre equipos, garantizando alineamiento de cronogramas, seguridad, accesos, transporte y operación de pista.',
+                hl1: 'Gestión de logística de la delegación F4',
+                hl2: 'Puente operativo F1 ↔ F4',
+                hl3: 'Transporte, travel y operación de pista',
+                hl4: 'Ejecución reconocida por sincronización'
+            },
+            siasp: {
+                role: 'Project Manager.',
+                desc: 'Gestión del proyecto del stand FIA WEC Rolex 6 Horas de São Paulo, con responsabilidad total por la planificación y ejecución de uno de los stands más visitados. El alcance incluyó concepto, escenografía, operación diaria y coordinación de equipos, socios y flujos de público durante 10 días.',
+                hl1: 'Planificación estratégica y ejecución del proyecto del stand',
+                hl2: 'Gestión de operación diaria, logística y flujos de público',
+                hl3: 'Coordinación de escenografía, proveedores y socios',
+                hl4: 'Comunicación continua con el equipo del proyecto y stakeholders',
+                hl5: 'Briefing, staffing y liderazgo on-site'
+            },
+            tags: {
+                operations: 'Operaciones',
+                cx: 'CX',
+                leadership: 'Liderazgo',
+                logistics: 'Logística',
+                scale: 'Logística Escala',
+                suppliers: 'Proveedores',
+                guinness: 'Guinness Planning',
+                experience: 'Experiencia',
+                strategy: 'Estrategia',
+                intOps: 'Operaciones Int.',
+                stakeholders: 'Stakeholders',
+                hospitality: 'Hospitalidad',
+                pmo: 'PMO',
+                infrastructure: 'Infraestructura',
+                integration: 'Integración',
+                planning: 'Planificación',
+                corporate: 'Eventos Corporativos',
+                internal: 'Comunicación Interna',
+                engagement: 'Engagement',
+                vip: 'VIP/Corporate',
+                relationship: 'Relacionamiento',
+                activation: 'Activación',
+                intCoord: 'Coordinación Int.',
+                motorsport: 'Motorsport',
+                pressure: 'Presión',
+                garantia: 'Garantía de consistencia de marca',
+                cenografia: 'Escenografía para la marca'
+            }
+        },
+        cta: {
+            title: '¿Listos para elevar el nivel?',
+            subtitle: 'Transformemos tu próxima idea en una experiencia inolvidable. La estrategia correcta comienza aquí.',
+            button: 'Iniciar proyecto'
+        },
+        footer: {
+            desc: 'MALB. Events & Consulting\nMALB Consulting & Events S.R.L. · CUI 52796517 · Reg. Comercial J2025082905007\nStr. Radu Captariu 15, Sector 2, Bucarest – Rumanía',
+            descLong: 'MALB. Events & Consulting\nMALB Consulting & Events S.R.L. · CUI 52796517 · Reg. Comercial J2025082905007\nStr. Radu Captariu 15, Sector 2, Bucarest – Rumanía',
+            explore: 'Explorar',
+            about: 'Quiénes somos',
+            solutions: 'Soluciones',
+            achievements: 'Logros',
+            cases: 'Casos',
+            contact: 'Contacto',
+            location: 'São Paulo, Brasil',
+            rights: '© 2026 MALB Events & Consulting. Todos los derechos reservados.',
+            rightsShort: '© 2026 MALB Events & Consulting.',
+            credits: 'Designed by DestinoConectado'
+        },
+        aboutPage: {
+            kicker: 'Institucional',
+            title: 'Quiénes somos.',
+            p1: 'Somos una consultoría de eventos especializada en operaciones, logística y entrega end-to-end.',
+            p2: 'Tenemos experiencia sólida en proyectos de gran escala en Brasil, con fuerte presencia en motorsport, hospitalidad premium y eventos corporativos estratégicos. Actuamos como punto de convergencia entre equipos internos, proveedores, patrocinadores y la organización del evento, garantizando alineamiento de cronograma, conformidad, seguridad y experiencia del público de inicio a fin.',
+            p3: 'Nuestro diferencial es transformar complejidad en ejecución. Estructuramos la planificación, integramos áreas y lideramos la operación en campo con comunicación precisa, visión de riesgo y ritmo de pista. Entregamos con consistencia tanto en eventos nacionales e internacionales como en experiencias VIP para C-levels y activaciones de marca.',
+            leader: {
+                kicker: 'Liderazgo',
+                title: 'Quién es Larissa Coelho<br>',
+                role: 'Head de MALB*',
+                p1: 'Larissa es una profesional especializada en operaciones de eventos de gran, mediano y pequeño porte, experiencia del cliente y gestión de proyectos, con más de 5 años liderando proyectos de gran escala que combinan creatividad, estructura y precisión.',
+                p2: 'Coordinó producciones internacionales como FIA WEC Rolex 6 Horas de São Paulo, Stock Car Championship, BH Stock Festival y el premiado Mr Moo Festival Edición Especial de 10 Años, que conquistó un récord mundial Guinness en 2025.',
+                p3: 'Larissa combina planificación estratégica, gestión financiera y diseño de servicios para garantizar que cada evento o proyecto sea eficiente, significativo y memorable.',
+                quote: '"Me apasiona transformar operaciones complejas en experiencias fluidas y centradas en las personas, que conectan marcas, equipos y públicos."',
+                cta: 'Saber más'
+            }
+        },
+        contact: {
+            title: '¿Tienes un proyecto en mente? <br><span class="highlight">¡Cuéntanos!</span>',
+            desc: 'Las grandes experiencias comienzan con una buena estrategia. Tu desafío es nuestro trabajo.',
+            emailLabel: 'Habla con nosotros',
+            locationLabel: 'Base',
+            formTitle: 'Envía un mensaje',
+            nameLabel: 'Tu nombre',
+            emailField: 'E-mail',
+            messageLabel: 'Sobre el proyecto...',
+            submit: 'Envía tu idea',
             namePlaceholder: ' ',
             emailPlaceholder: ' ',
             messagePlaceholder: ' '
@@ -584,6 +793,15 @@ const translations = {
                 hl3: 'Transport, travel și operațiuni de pistă',
                 hl4: 'Execuție recunoscută pentru sincronizare'
             },
+            siasp: {
+                role: 'Project Manager.',
+                desc: 'Manager de proiect pentru standul FIA WEC Rolex 6 Ore de São Paulo, cu responsabilitate completă pentru planificare și execuție. Scope-ul a inclus conceptul, scenografia, operațiunile zilnice și coordonarea echipelor, partenerilor și fluxurilor publice pe parcursul a 10 zile de eveniment.',
+                hl1: 'Planificare strategică și execuție a proiectului standului',
+                hl2: 'Managementul operațiunilor zilnice, logistică și flux public',
+                hl3: 'Coordonarea scenografiei, furnizorilor și partenerilor',
+                hl4: 'Comunicare continuă cu echipa de proiect și stakeholderi',
+                hl5: 'Briefing, staffing și leadership on-site'
+            },
             tags: {
                 operations: 'Operațiuni',
                 cx: 'CX',
@@ -609,7 +827,9 @@ const translations = {
                 activation: 'Activare',
                 intCoord: 'Coord. Int.',
                 motorsport: 'Motorsport',
-                pressure: 'Presiune'
+                pressure: 'Presiune',
+                garantia: 'Garanție de consistență a brandului',
+                cenografia: 'Scenografie pentru brand'
             }
         },
         cta: {
@@ -618,8 +838,8 @@ const translations = {
             button: 'Începe proiectul'
         },
         footer: {
-            desc: 'Creăm experiențe care construiesc branduri. De la strategie la execuție.',
-            descLong: 'Creăm experiențe care construiesc branduri. De la strategie la execuție impecabilă.',
+            desc: 'MALB. Events & Consulting\nMALB Consulting & Events S.R.L. · CUI 52796517 · Reg. Comercial J2025082905007\nStr. Radu Captariu 15, Sector 2, București – România',
+            descLong: 'MALB. Events & Consulting\nMALB Consulting & Events S.R.L. · CUI 52796517 · Reg. Comercial J2025082905007\nStr. Radu Captariu 15, Sector 2, București – România',
             explore: 'Explorează',
             about: 'Despre noi',
             solutions: 'Soluții',
@@ -657,7 +877,7 @@ const translations = {
             nameLabel: 'Numele tău',
             emailField: 'Email',
             messageLabel: 'Despre proiect...',
-            submit: 'Trimite propunerea',
+            submit: 'Trimite ideea ta',
             namePlaceholder: ' ',
             emailPlaceholder: ' ',
             messagePlaceholder: ' '
