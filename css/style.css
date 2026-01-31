@@ -1524,6 +1524,27 @@ a, button {
 }
 
 @media (max-width: 900px) {
+  html,
+  body {
+    width: 100%;
+    overflow-x: hidden;
+  }
+
+  .hero,
+  .about-section,
+  .specialties-section,
+  .achievements-section,
+  .portfolio-section {
+    width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+  }
+
+  .hero-content::before {
+    width: 360px;
+    height: 360px;
+  }
+
   .hero, .about-section, .specialties-section, .achievements-section, .portfolio-section, .page-quem-somos .qs-bg {
     background-attachment: scroll !important;
   }
@@ -1555,8 +1576,15 @@ a, button {
   }
   
   .image-wrapper::before {
-    right: -15px;
-    top: 15px;
+    right: 0;
+    top: 10px;
+  }
+
+  .photo-caption {
+    padding: 0 12px;
+    line-height: 1.4;
+    max-width: 100%;
+    word-break: normal;
   }
   
   .navbar {
