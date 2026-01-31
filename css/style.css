@@ -197,7 +197,7 @@ a, button {
   color: var(--accent);
   font-weight: 700;
   display: block;
-  font-family: "Story Script", sans-serif;
+  font-family: "Onest", sans-serif;
   margin-top: 20px;
 }
 
@@ -325,7 +325,7 @@ a, button {
 .section-title {
   font-size: 2.9rem;
   margin-bottom: 40px;
-  font-family: "Story Script", sans-serif;
+  font-family: "Onest", sans-serif;
 }
 
 .specialties-grid {
@@ -528,7 +528,7 @@ a, button {
 .portfolio-subtitle {
   color: #888;
   font-size: 0.9rem;
-  margin-top: 10px;
+  margin-top: 20px;
   font-family: "Inter", sans-serif;
   letter-spacing: 1px;
   text-transform: uppercase;
@@ -620,7 +620,7 @@ a, button {
 }
 
 .card-header h3 {
-  font-family: "Story Script", sans-serif;
+  font-family: "Onest", sans-serif;
   font-size: 1.8rem;
   color: #fff;
 }
@@ -742,7 +742,7 @@ a, button {
 }
 
 .cta-title {
-  font-family: "Story Script", sans-serif;
+  font-family: "Onest", sans-serif;
   font-size: 3.5rem;
   color: #fff;
   margin-bottom: 20px;
@@ -1010,7 +1010,7 @@ a, button {
 .page-title {
   font-size: 3.2rem;
   line-height: 1.05;
-  font-family: "Story Script", sans-serif;
+  font-family: "Onest", sans-serif;
   margin-bottom: 15px;
   color: #c084fceb;
 }
@@ -1060,7 +1060,7 @@ a, button {
 }
 
 .leader-title {
-  font-family: "Story Script", sans-serif;
+  font-family: "Onest", sans-serif;
   font-size: 2.6rem;
   line-height: 1.05;
   margin-bottom: 28px;
@@ -1225,7 +1225,7 @@ a, button {
 }
 
 .credits {
-  font-family: "Story Script", sans-serif;
+  font-family: "Onest", sans-serif;
   color: #777 !important;
   font-size: 1.1rem !important;
 }
@@ -1273,7 +1273,7 @@ a, button {
 }
 
 .contact-info-col .big-title {
-  font-family: "Story Script", sans-serif;
+  font-family: "Onest", sans-serif;
   font-size: 4rem;
   line-height: 1.1;
   margin-bottom: 25px;
