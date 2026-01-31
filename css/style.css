@@ -295,7 +295,7 @@ a, button {
   left: 0;
   width: 100%;
   height: 100%;
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.8), rgba(86, 62, 134, 0.462));
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.25), rgba(86, 62, 134, 0.45));
   pointer-events: none;
   z-index: 1;
 }
@@ -470,10 +470,11 @@ a, button {
 
 .timeline-path {
   position: absolute;
-  top: 50px;
-  left: 16%;
-  right: 16%;
-  height: 250px;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 14%;
+  right: 14%;
+  height: 230px;
   border-top: 3px dashed rgba(192, 132, 252, 0.45);
   border-right: 3px dashed rgba(192, 132, 252, 0.45);
   border-bottom: 3px dashed rgba(192, 132, 252, 0.45);
@@ -544,8 +545,7 @@ a, button {
   gap: 30px;
   overflow-x: auto;
   overflow-y: visible;
-  padding-bottom: 50px;
-  padding-right: 5%;
+  padding: 20px 5% 50px 0;
   scroll-snap-type: x mandatory;
   cursor: grab;
   scrollbar-width: none;
@@ -926,9 +926,10 @@ a, button {
   align-items: center;
   gap: 8px;
   margin-left: 20px;
+  position: relative;
 }
 
-.nav-lang select {
+.lang-toggle {
   background: rgba(5, 1, 10, 0.6);
   color: #fff;
   border: 1px solid rgba(255, 255, 255, 0.2);
@@ -936,6 +937,68 @@ a, button {
   padding: 6px 12px;
   font-family: "Funnel Display", sans-serif;
   font-size: 0.9rem;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.lang-flag {
+  width: 20px;
+  height: 14px;
+  border-radius: 2px;
+  object-fit: cover;
+}
+
+.lang-caret {
+  width: 12px;
+  height: 12px;
+  fill: #fff;
+}
+
+.lang-menu {
+  position: absolute;
+  top: calc(100% + 8px);
+  right: 0;
+  background: rgba(10, 6, 16, 0.92);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  border-radius: 12px;
+  padding: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  min-width: 120px;
+  list-style: none;
+  opacity: 0;
+  transform: translateY(-6px);
+  pointer-events: none;
+  transition: opacity 0.2s ease, transform 0.2s ease;
+  z-index: 20;
+}
+
+.nav-lang.open .lang-menu {
+  opacity: 1;
+  transform: translateY(0);
+  pointer-events: auto;
+}
+
+.lang-menu button {
+  background: transparent;
+  border: none;
+  color: #fff;
+  font-family: "Funnel Display", sans-serif;
+  font-size: 0.9rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  padding: 6px 8px;
+  border-radius: 8px;
+  width: 100%;
+}
+
+.lang-menu button:hover,
+.lang-menu button[aria-selected="true"] {
+  background: rgba(192, 132, 252, 0.2);
 }
 
 .nav-toggle {
@@ -1574,6 +1637,7 @@ a, button {
     height: 100%;
     left: 20px;
     top: 0;
+    transform: none;
     right: auto;
     border: none;
     border-left: 3px dashed rgba(192, 132, 252, 0.35);
