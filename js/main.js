@@ -961,7 +961,8 @@ const updateLangToggle = (lang) => {
 };
 
 if (langToggle && langMenu) {
-    const storedLang = safeStorage.get('lang') || 'en';
+    const storedLang = 'en';
+    safeStorage.set('lang', storedLang);
     applyTranslations(storedLang);
     updateLangToggle(storedLang);
 
