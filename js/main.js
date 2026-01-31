@@ -1,6 +1,9 @@
 const cursorDot = document.querySelector('.cursor-dot');
 const cursorOutline = document.querySelector('.cursor-outline');
-const langSelect = document.getElementById('lang-select');
+const navLang = document.querySelector('.nav-lang');
+const langToggle = document.querySelector('.lang-toggle');
+const langMenu = document.querySelector('.lang-menu');
+const langButtons = document.querySelectorAll('.lang-menu [data-lang]');
 
 const translations = {
     pt: {
@@ -918,15 +921,68 @@ const applyTranslations = (lang) => {
     });
 };
 
-if (langSelect) {
-    const storedLang = localStorage.getItem('lang') || 'pt';
-    langSelect.value = storedLang;
-    applyTranslations(storedLang);
+const updateLangToggle = (lang) => {
+    if (!langToggle || !langMenu) {
+        return;
+    }
 
-    langSelect.addEventListener('change', (event) => {
-        const lang = event.target.value;
-        localStorage.setItem('lang', lang);
-        applyTranslations(lang);
+    const activeButton = langMenu.querySelector(`[data-lang="${lang}"]`);
+    const code = langToggle.querySelector('.lang-code');
+    const flag = langToggle.querySelector('.lang-flag');
+
+    langButtons.forEach((button) => {
+        button.setAttribute('aria-selected', button === activeButton ? 'true' : 'false');
+    });
+
+    if (activeButton && code && flag) {
+        code.textContent = activeButton.dataset.label || lang.toUpperCase();
+        flag.src = activeButton.dataset.flag || flag.src;
+        const activeFlag = activeButton.querySelector('img');
+        if (activeFlag) {
+            flag.alt = activeFlag.alt;
+        }
+    }
+};
+
+if (langToggle && langMenu) {
+    const storedLang = localStorage.getItem('lang') || 'pt';
+    applyTranslations(storedLang);
+    updateLangToggle(storedLang);
+
+    langToggle.addEventListener('click', () => {
+        if (!navLang) {
+            return;
+        }
+        const isOpen = navLang.classList.toggle('open');
+        langToggle.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
+    });
+
+    langButtons.forEach((button) => {
+        button.addEventListener('click', () => {
+            const lang = button.dataset.lang || 'pt';
+            localStorage.setItem('lang', lang);
+            applyTranslations(lang);
+            updateLangToggle(lang);
+            if (navLang) {
+                navLang.classList.remove('open');
+                langToggle.setAttribute('aria-expanded', 'false');
+            }
+        });
+    });
+
+    document.addEventListener('click', (event) => {
+        if (!navLang || navLang.contains(event.target)) {
+            return;
+        }
+        navLang.classList.remove('open');
+        langToggle.setAttribute('aria-expanded', 'false');
+    });
+
+    document.addEventListener('keydown', (event) => {
+        if (event.key === 'Escape' && navLang) {
+            navLang.classList.remove('open');
+            langToggle.setAttribute('aria-expanded', 'false');
+        }
     });
 }
 
