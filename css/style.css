@@ -141,7 +141,7 @@ a, button {
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-blend-mode: hard-light;
+  background-blend-mode: normal;
 }
 
 .about-section::before {
@@ -279,7 +279,7 @@ a, button {
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-blend-mode: hard-light;
+  background-blend-mode: normal;
   display: flex;
   flex-direction: column !important;
   align-items: center;
@@ -394,7 +394,7 @@ a, button {
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-blend-mode: hard-light;
+  background-blend-mode: normal;
   box-shadow: none;
   border-top: none;
 }
@@ -511,7 +511,7 @@ a, button {
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-blend-mode: hard-light;
+  background-blend-mode: normal;
 }
 
 .portfolio-section::before {
@@ -1316,7 +1316,7 @@ a, button {
   background-image: url("../img/fundosolucoes.png");
   background-size: cover;
   background-position: center;
-  background-blend-mode: hard-light;
+  background-blend-mode: normal;
   opacity: 0.8;
   pointer-events: none;
   z-index: 0;
