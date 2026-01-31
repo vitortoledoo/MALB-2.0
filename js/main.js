@@ -910,7 +910,7 @@ const translations = {
 };
 
 const applyTranslations = (lang) => {
-    const dictionary = translations[lang] || translations.pt;
+    const dictionary = translations[lang] || translations.en;
 
     document.querySelectorAll('[data-i18n]').forEach((el) => {
         const key = el.dataset.i18n;
@@ -961,7 +961,7 @@ const updateLangToggle = (lang) => {
 };
 
 if (langToggle && langMenu) {
-    const storedLang = safeStorage.get('lang') || 'pt';
+    const storedLang = safeStorage.get('lang') || 'en';
     applyTranslations(storedLang);
     updateLangToggle(storedLang);
 
@@ -975,7 +975,7 @@ if (langToggle && langMenu) {
 
     langButtons.forEach((button) => {
         button.addEventListener('click', () => {
-            const lang = button.dataset.lang || 'pt';
+            const lang = button.dataset.lang || 'en';
             safeStorage.set('lang', lang);
             applyTranslations(lang);
             updateLangToggle(lang);
